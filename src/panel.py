@@ -30,6 +30,11 @@ class Panel(sprite.Sprite):
     def on_event(self, time, event):
         mouse_press = pygame.mouse.get_pressed()[0]
         mouse_pos = pygame.mouse.get_pos()
+        for button in self.buttons_group:
+            if button.rect.collidepoint((mouse_pos[0] - self.x, mouse_pos[1] - self.y)):
+                button.on_hover(True)
+            else:
+                button.on_hover(False)
         if (mouse_press and self.mouse_state == 1):
             self.mouse_state = 0
         if (not mouse_press and self.mouse_state == 0):
@@ -47,8 +52,9 @@ class Panel(sprite.Sprite):
 
 
     def on_draw(self, screen):
-        self.buttons_group.draw(self.background)
-        screen.blit(self.background, self.background_rect)
+        aux_background = self.background.copy()  # Quitando esto sale un efecto de fade chulo
+        self.buttons_group.draw(aux_background)
+        screen.blit(aux_background, self.background_rect)
 
 
     def set_buttons_states(self, states):

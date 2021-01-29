@@ -16,8 +16,14 @@ class Button(sprite.Sprite):
         self.x = position[0]
         self.y = position[1]
         self.rect = self.image.get_rect()
-        self.rect.center = (self.x, self.y)
+        self.rect.topleft = (self.x, self.y)
         self.on_click = on_click
+
+    def on_hover(self, state):
+        if state and self.turn_on:
+            self.image = self.hover
+        else:
+            self.image = self.active if self.turn_on else self.inactive    
 
     def on_draw(self, screen):
         screen.blit(self.image, self.rect)
@@ -35,7 +41,7 @@ class ButtonUp(Button):
         super(ButtonUp, self).__init__(
             active = load_image("assets/sprites/up_on.png"),
             inactive = load_image("assets/sprites/up_off.png"),
-            hover = None,
+            hover = load_image("assets/sprites/over_up.png"),
             position = position,
             on_click = on_click)
 
@@ -44,7 +50,7 @@ class ButtonLeft(Button):
         super(ButtonLeft, self).__init__(
             active = load_image("assets/sprites/left_on.png"),
             inactive = load_image("assets/sprites/left_off.png"),
-            hover = None,
+            hover = load_image("assets/sprites/over_left.png"),
             position = position,
             on_click = on_click)
 
@@ -53,7 +59,7 @@ class ButtonRight(Button):
         super(ButtonRight, self).__init__(
             active = load_image("assets/sprites/right_on.png"),
             inactive = load_image("assets/sprites/right_off.png"),
-            hover = None,
+            hover = load_image("assets/sprites/over_right.png"),
             position = position,
             on_click = on_click)
 
@@ -62,7 +68,7 @@ class ButtonDown(Button):
         super(ButtonDown, self).__init__(
             active = load_image("assets/sprites/down_on.png"),
             inactive = load_image("assets/sprites/down_off.png"),
-            hover = None,
+            hover = load_image("assets/sprites/over_down.png"),
             position = position,
             on_click = on_click)
 
@@ -71,6 +77,6 @@ class ButtonWait(Button):
         super(ButtonWait, self).__init__(
             active = load_image("assets/sprites/wait_on.png"),
             inactive = load_image("assets/sprites/wait_off.png"),
-            hover = None,
+            hover = load_image("assets/sprites/over_wait.png"),
             position = position,
             on_click = on_click)

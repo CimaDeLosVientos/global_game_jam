@@ -8,15 +8,22 @@ class Tile(sprite.Sprite):
     def __init__(self, tile_type, position):
         sprite.Sprite.__init__(self)
         #self.image = transform.scale(load_image("assets/sprites/obstacle.png"), OBJECT_SURFACE)
-        self.image = load_image("assets/sprites/obstacle.png") if tile_type != 0 else None
+        self.image = None
+        if tile_type == 1:
+            self.image = load_image("assets/sprites/obstacle_big.png")
+        if tile_type == 5:
+            self.image = load_image("assets/sprites/shelter.png")
         self.x = position[0]
         self.y = position[1]
         if self.image:
             self.rect = self.image.get_rect()
-            self.rect.topleft = (self.x * TILE_WIDTH, self.y * TILE_HEIGHT)
-        self.transitable = True if tile_type == 0 else False
-        self.pulsable = False  # values = { "up", "down", "right", "left"}
-        self.hiding_place = False
+            self.rect.center = (
+                TILE_MARGIN + self.x * TILE_WIDTH + TILE_WIDTH / 2,
+                TILE_MARGIN + self.y * TILE_HEIGHT + TILE_HEIGHT / 2
+            )
+        self.transitable = True if tile_type != 1 else False
+        #self.pulsable = False  # values = { "up", "down", "right", "left"}
+        self.hiding_place = True if tile_type == 5 else False
         self.under_player = False
         self.under_enemy = False
 

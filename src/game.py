@@ -15,7 +15,7 @@ class Game(Scene):
         self.player = Character((2,2))
         self.enemies = pygame.sprite.Group()
         self.enemies.add([Enemy((5,5)), Enemy((5,6))])
-        self.board = Board(RAW_BOARD_0, self.player, self.enemies, self.background.get_rect().center)
+        self.board = Board(RAW_BOARD_0, self.player, self.enemies, GAME_FIELD_POSITION_TL)
         self.panel = Panel(PANEL_POSITION)
         self.panel.set_buttons_states(self.board.get_button_states())
 
@@ -37,8 +37,11 @@ class Game(Scene):
         movement = self.panel.update(time)
         #print(movement)
         if movement:
-            states = self.board.move_player(movement)
-            self.panel.set_buttons_states(states)
+            self.board.move_player(movement)
+            # move enemies
+            self.board.move_enemies()
+            self.panel.set_buttons_states(self.board.get_button_states())
+            
 
 
 
