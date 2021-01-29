@@ -34,7 +34,7 @@ class Director:
 
         #Options
         pygame.key.set_repeat(10)
-        pygame.mixer.music.set_volume(MASTER_VOLUMEN)
+#       pygame.mixer.music.set_volume(MASTER_VOLUMEN)
 
         self.scenes = scenes
         self.current_scene = self.scenes["init"]
@@ -85,8 +85,8 @@ class Director:
 
 
 if __name__ == '__main__':
-    pygame.mixer.pre_init(44100, -16, 2, 2048)
-    pygame.mixer.init()
+    #pygame.mixer.pre_init(44100, -16, 2, 2048)
+    #pygame.mixer.init()
     pygame.init()
 
     scenes = {"init" : None}
