@@ -24,22 +24,35 @@ class Panel(sprite.Sprite):
         self.buttons_group.add(self.buttons.values())
 
         self.mouse_state = 1 # Up
+
+        self.mouse_press = False
+        self.mouse_pos = (0,0)
+
+
         self.order = None
 
 
     def on_event(self, time, event):
-        mouse_press = pygame.mouse.get_pressed()[0]
-        mouse_pos = pygame.mouse.get_pos()
+        #mouse_press = pygame.mouse.get_pressed()[0]
+        #mouse_pos = pygame.mouse.get_pos()
+        if event.type == pygame.MOUSEBUTTONUP:
+            self.mouse_press = False
+        if event.type == pygame.MOUSEBUTTONDOWN:
+            self.mouse_press = True
+        if event.type == pygame.MOUSEMOTION:
+            self.mouse_pos = event.pos
         for button in self.buttons_group:
-            if button.rect.collidepoint((mouse_pos[0] - self.x, mouse_pos[1] - self.y)):
+            print(button.rect)
+            print(self.mouse_pos[0], self.x, self.mouse_pos[1], self.y)
+            if button.rect.collidepoint((self.mouse_pos[0] - self.x, self.mouse_pos[1] - self.y)):
                 button.on_hover(True)
             else:
                 button.on_hover(False)
-        if (mouse_press and self.mouse_state == 1):
+        if (self.mouse_press and self.mouse_state == 1):
             self.mouse_state = 0
-        if (not mouse_press and self.mouse_state == 0):
+        if (not self.mouse_press and self.mouse_state == 0):
             for button in self.buttons_group:
-                if button.rect.collidepoint((mouse_pos[0] - self.x, mouse_pos[1] - self.y)):
+                if button.rect.collidepoint((self.mouse_pos[0] - self.x, self.mouse_pos[1] - self.y)):
                     button.on_click()
             self.mouse_state = 1
 
