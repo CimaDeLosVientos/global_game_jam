@@ -25,7 +25,7 @@ label test_zone:
     # defecto. Es posible añadir un archivo en el directorio 'images' con el
     # nombre "bg room.png" or "bg room.jpg" para que se muestre aquí.
 
-    scene game_menu
+    scene bg forest dark
     show logo x p at center0
     narrator "Has creado un nuevo juego Ren'Py."
     show logo j at center1
