@@ -4,25 +4,27 @@ from .scene import Scene
 from .helpers import *
 from .parameters import *
 from .board import Board
-from .character import Character, Enemy
+from .character import Character, Enemy, Player
 from .panel import Panel
 
 class Game(Scene):
-    def __init__(self):
+    def __init__(self, data):
         Scene.__init__(self)
         self.next = None
         self.background = load_image("assets/sprites/game_background.png")
-        self.player = Character((2,2))
+        self.player = Player(data["player_pos"])
         self.enemies = pygame.sprite.Group()
-        self.enemies.add([Enemy((5,5)), Enemy((5,6))])
-        self.board = Board(RAW_BOARD_0, self.player, self.enemies, GAME_FIELD_POSITION_TL)
+        self.enemies.add([
+            Enemy(enemy["alert"], enemy["pos"])
+            for enemy in data["enemies"].values()
+        ])
+        self.board = Board(data["raw_board"], self.player, self.enemies, data["goal"], GAME_FIELD_POSITION_TL)
         self.panel = Panel(PANEL_POSITION)
         self.panel.set_buttons_states(self.board.get_button_states())
 
 
-
-
     def load(self, data):
+        return
         self.__init__()
 
 

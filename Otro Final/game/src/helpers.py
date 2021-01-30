@@ -79,6 +79,8 @@ def resource_path(relative):
     extends the sys module by a flag frozen=True and sets the app 
     path into variable _MEIPASS'.
     """
+    print(os.path.abspath(__file__))
+    print(os.getcwd())
     application_path = os.path.abspath(".")
     #if getattr(sys, 'frozen', False):
     #    application_path = sys._MEIPASS

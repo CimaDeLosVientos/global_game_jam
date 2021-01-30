@@ -42,8 +42,6 @@ class Panel(sprite.Sprite):
         if event.type == pygame.MOUSEMOTION:
             self.mouse_pos = event.pos
         for button in self.buttons_group:
-            print(button.rect)
-            print(self.mouse_pos[0], self.x, self.mouse_pos[1], self.y)
             if button.rect.collidepoint((self.mouse_pos[0] - self.x, self.mouse_pos[1] - self.y)):
                 button.on_hover(True)
             else:

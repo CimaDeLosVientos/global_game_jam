@@ -11,10 +11,11 @@ define evil = Character("EVIL")
 # El juego comienza aquí.
 init -1 python:
     from src.game import Game
+    from src.parameters import MINIGAMES_DATA
 
     data = {}
     scenes = {
-        "init" : Game()
+        "init" : Game(MINIGAMES_DATA["3"])
     }
 
 
@@ -35,6 +36,11 @@ label test_zone:
     # Muestra un personaje: Se usa un marcador de posición. Es posible
     # reemplazarlo añadiendo un archivo llamado "eileen happy.png" al directorio
     # 'images'.
+    python:
+        director = Director(scenes, data)
+        ui.add(director)
+        winner = ui.interact(suppress_overlay=True, suppress_underlay=True)
+        ui.remove(director)
     narrator "Has creado un nuevo juego Ren'Py."
     jump cosa
     menu:
@@ -45,11 +51,6 @@ label test_zone:
 
     e "Añade una historia, imágenes y música, ¡y puedes presentarlo al mundo!"
 
-    python:
-        director = Director(scenes, data)
-        ui.add(director)
-        winner = ui.interact(suppress_overlay=True, suppress_underlay=True)
-        ui.remove(director)
 
     show eileen happy
 
@@ -60,7 +61,8 @@ label test_zone:
     e "Añade una historia, imágenes y música, ¡y puedes presentarlo al mundo!"
     # Finaliza el juego:
 label start:
-    jump sc_001_story_telling
+    #jump sc_001_story_telling
+    jump test_zone
 
 
     return

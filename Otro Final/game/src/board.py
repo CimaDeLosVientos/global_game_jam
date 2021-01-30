@@ -6,7 +6,7 @@ from .parameters import *
 from .tile import Tile
 
 class Board(sprite.Sprite):
-    def __init__(self, raw_board, player, enemies, position):
+    def __init__(self, raw_board, player, enemies, goal_pos, position):
         sprite.Sprite.__init__(self)
         self.background = load_image("assets/sprites/play_area.png")
         self.grid = load_image("assets/sprites/grid.png")
@@ -17,6 +17,7 @@ class Board(sprite.Sprite):
         self.background_rect.topleft = (TILE_MARGIN + position[0], TILE_MARGIN + position[1])
         self.grid_rect = self.grid.get_rect()
         self.grid_rect.topleft = position
+        self.goal_pos = goal_pos
         self.player = player
         self.enemies = enemies
         self.transiting = False  # Maybe external
@@ -93,6 +94,8 @@ class Board(sprite.Sprite):
 
     def update(self, time):
         player_pos = (self.player.x, self.player.y)
+        if player_pos == self.goal_pos:
+            return "PLAYER WINS"
         for enemy in self.enemies:
             if (enemy.x, enemy.y) == player_pos:
                 return "Haber si me muero"

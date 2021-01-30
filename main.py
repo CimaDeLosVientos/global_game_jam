@@ -97,7 +97,7 @@ if __name__ == '__main__':
     data = {
     }
     scenes = {
-        "init" : Game()
+        "init" : Game(MINIGAMES_DATA["5"])
     }
     
     director.data = data
