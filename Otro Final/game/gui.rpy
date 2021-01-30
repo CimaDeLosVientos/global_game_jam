@@ -11,7 +11,23 @@ init offset = -2
 init python:
     gui.init(1920, 1080)
 
+### Posiciones personalizadas
+transform cleft:
+    xalign 300.0 yalign 300.0
+transform cright:
+    xalign 1200.0 yalign 300.0
 
+transform center0:
+    xalign 0.10 yalign 0.0
+
+transform center1:
+    xalign 0.35 yalign 0.0
+
+transform center2:
+    xalign 0.70 yalign 0.0
+
+transform center3:
+    xalign 0.95 yalign 1.0
 
 ################################################################################
 ## Variables de configuración de la interfaz.
@@ -54,7 +70,7 @@ define gui.interface_text_color = u'#ffffff'
 ## Tipos y tamaños de letra ####################################################
 
 ## El tipo de letra del texto del juego
-define gui.text_font = "DejaVuSans.ttf"
+define gui.text_font = "fonts/seguisb.ttf"
 
 ## El tipo de letra de los nombres de personajes
 define gui.name_text_font = "DejaVuSans.ttf"
@@ -84,8 +100,8 @@ define gui.title_text_size = 75
 ## Menú principal y menús del juego ############################################
 
 ## Imágenes del menú principal y menús del juego.
-define gui.main_menu_background = "gui/main_menu.png"
-define gui.game_menu_background = "gui/game_menu.png"
+define gui.main_menu_background = "gui/main_menu.jpg"
+define gui.game_menu_background = "gui/game_menu.jpg"
 
 
 ## Diálogo #####################################################################
