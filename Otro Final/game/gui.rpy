@@ -17,7 +17,7 @@ transform cleft:
 transform cright:
     xpos 1200 ypos 300
 transform ccleft:
-    xpos 550 ypos 300
+    xpos 665 ypos 300
 
 transform center0:
     xalign 0.10 yalign 0.0
@@ -72,13 +72,13 @@ define gui.interface_text_color = u'#ffffff'
 ## Tipos y tamaños de letra ####################################################
 
 ## El tipo de letra del texto del juego
-define gui.text_font = "fonts/seguisb.ttf"
+define gui.text_font = "fonts/HARNGTON.TTF"
 
 ## El tipo de letra de los nombres de personajes
-define gui.name_text_font = "DejaVuSans.ttf"
+define gui.name_text_font = "fonts/HARNGTON.TTF"
 
 ## El tipo de letra del texto externo al juego.
-define gui.interface_text_font = "DejaVuSans.ttf"
+define gui.interface_text_font = "fonts/HARNGTON.TTF"
 
 ## El tamaño normal del texto del diálogo.
 define gui.text_size = 33

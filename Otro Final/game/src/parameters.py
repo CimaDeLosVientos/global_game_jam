@@ -111,11 +111,11 @@ MINIGAMES_DATA = {
         "player_pos": (2,2),
         "enemies": {
             "1": {
-                "pos": (2,7),
+                "pos": (3,7),
                 "alert": 3
             },
             "2": {
-                "pos": (10,1),
+                "pos": (9,1),
                 "alert": 3
             }
         },

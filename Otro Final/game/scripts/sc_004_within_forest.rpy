@@ -30,10 +30,12 @@ label sc_004_within_forest:
     "..."
     call NOplayer_fairy
     "{i}Éstel siguió avanzando con paso firme, pero entonces, sólo unos instantes después, Sairina se colocó rápidamente delante de ella"
+    call playerFROMfairy
     fairy "¡Detente! Creo que he visto algo."
     fairy "No, no. No digas nada. Sígueme."
     call NOplayer_fairy
     "{i}Ella miró a Sairina con los ojos muy abiertos y asintió con la cabeza siguiéndola hasta acercarse hasta el tronco de un grueso árbol que había cerca{\i}"
+    call playerFROMfairy
     fairy "Mira allí. Con cuidado. Hay algo."
     call playerTOfairy
     girl "¿Crees que nos ha visto?"

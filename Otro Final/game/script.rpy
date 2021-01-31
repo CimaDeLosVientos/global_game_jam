@@ -94,7 +94,7 @@ label start:
     #$ _skipping = False
     #jump test_zone
     #jump sc_001_story_telling
-    jump sc_002_elder_girl_conversation
+    jump sc_009_panic_moment
 
 
     return

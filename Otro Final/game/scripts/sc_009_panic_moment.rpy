@@ -1,5 +1,5 @@
 label sc_009_panic_moment:
-    scene text forest 3 with fade
+    scene bg forest dark with fade
     call playerTOfairy
     girl "¡Sairina! ¡Sairina!"
     call playerFROMfairy
@@ -41,26 +41,26 @@ label sc_009_panic_moment:
     call playerFROMfairy
     fairy "¡Cuidado!"
     window hide
-    scene text normal with fade
-    nvl_narrator "La criatura les alcanzó"
-    nvl_narrator "Y con un rugido aterrador anunció que se acercaba el final"
-    nvl_narrator "La criatura les atacó, pero Sairina consiguió con su luz cegar momentáneamente a la criatura"
-    nvl_narrator "Éstel sujetaba el libro con fuerza y miraba entre sus páginas como si buscara un milagro"
-    nvl_narrator "Pero no había nada"
-    nvl_narrator "Éstel, aturdida por la situación, se pregunta si habrían ido hasta allí sólo para repetir la misma historia"
-    nvl_narrator "Pero ahora no podía pensar en su error. Debía juntarse con Sairina y tratar de salir del bosque"
-    nvl_narrator "Pero la criatura pareció adivinar sus pensamientos, pues de un salto se acercó a Sairina consiguió golpearla"
-    nvl_narrator "Sairina cayó al suelo y Éstel gritó"
-    nvl_narrator "Éstel corrió hacía su amiga olvidándose de la presencia de la criatura por un momento"
-    nvl_narrator "Por suerte, el ataque no había sido tan grave como podía haber sido y Sairina intentaba incorporarse"
-    nvl_narrator "Pero aquella terrible bestia no parecía dispuesta a dejar que eso sucediera"
-    nvl_narrator "Éstel se colocó entre ésta y Sairina"
-    nvl_narrator "Miró de nuevo el libro como si aún quisiera tener fe en aquella poderosa maga que pensó que su magia sería suficiente para calmar aquel lugar maldito"
-    nvl_narrator "Mientras contemplaba de nuevo las vacías páginas del libro, sintió a aquella criatura abalanzándose sobre ella"
-    nvl_narrator "Instintivamente usó el libro abierto como escudo, aunque pudiera parecer la más ridícula de las ideas"
-    nvl_narrator "Éstel cerró los ojos con fuerza esperando el choque final"
-    nvl_narrator "Sintió una inmensa fuerza que la empujó hacía atrás, un último gruñido del oscuro ser y después silencio"
-    scene text forest 3 with fade
+    scene text dark with fade
+    nvl_narrator "{color=c8c8c8}{enf}La criatura les alcanzó{/enf}{/color}"
+    nvl_narrator "{color=c8c8c8}{enf}Y con un rugido aterrador anunció que se acercaba el final{/enf}{/color}"
+    nvl_narrator "{color=c8c8c8}{enf}La criatura les atacó, pero Sairina consiguió con su luz cegar momentáneamente a la criatura{/enf}{/color}"
+    nvl_narrator "{color=c8c8c8}{enf}Éstel sujetaba el libro con fuerza y miraba entre sus páginas como si buscara un milagro{/enf}{/color}"
+    nvl_narrator "{color=c8c8c8}{enf}Pero no había nada{/enf}{/color}"
+    nvl_narrator "{color=c8c8c8}{enf}Éstel, aturdida por la situación, se pregunta si habrían ido hasta allí sólo para repetir la misma historia{/enf}{/color}"
+    nvl_narrator "{color=c8c8c8}{enf}Pero ahora no podía pensar en su error. Debía juntarse con Sairina y tratar de salir del bosque{/enf}{/color}"
+    nvl_narrator "{color=c8c8c8}{enf}Pero la criatura pareció adivinar sus pensamientos, pues de un salto se acercó a Sairina consiguió golpearla{/enf}{/color}"
+    nvl_narrator "{color=c8c8c8}{enf}Sairina cayó al suelo y Éstel gritó{/enf}{/color}"
+    nvl_narrator "{color=c8c8c8}{enf}Éstel corrió hacía su amiga olvidándose de la presencia de la criatura por un momento{/enf}{/color}"
+    nvl_narrator "{color=c8c8c8}{enf}Por suerte, el ataque no había sido tan grave como podía haber sido y Sairina intentaba incorporarse{/enf}{/color}"
+    nvl_narrator "{color=c8c8c8}{enf}Pero aquella terrible bestia no parecía dispuesta a dejar que eso sucediera{/enf}{/color}"
+    nvl_narrator "{color=c8c8c8}{enf}Éstel se colocó entre ésta y Sairina{/enf}{/color}"
+    nvl_narrator "{color=c8c8c8}{enf}Miró de nuevo el libro como si aún quisiera tener fe en aquella poderosa maga que pensó que su magia sería suficiente para calmar aquel lugar maldito{/enf}{/color}"
+    nvl_narrator "{color=c8c8c8}{enf}Mientras contemplaba de nuevo las vacías páginas del libro, sintió a aquella criatura abalanzándose sobre ella{/enf}{/color}"
+    nvl_narrator "{color=c8c8c8}{enf}Instintivamente usó el libro abierto como escudo, aunque pudiera parecer la más ridícula de las ideas{/enf}{/color}"
+    nvl_narrator "{color=c8c8c8}{enf}Éstel cerró los ojos con fuerza esperando el choque final{/enf}{/color}"
+    nvl_narrator "{color=c8c8c8}{enf}Sintió una inmensa fuerza que la empujó hacía atrás, un último gruñido del oscuro ser y después silencio{/enf}{/color}"
+    scene bg forest clear with fade
     fairy "¡Despierta, despierta!"
     fairy "¿Estás bien?"
     call playerTOfairy
@@ -85,7 +85,7 @@ label sc_009_panic_moment:
     girl "Ya..."
     call playerFROMfairy
     fairy "Míralo."
-    call NOgirl_fairy
+    call NOplayer_fairy
     "{i}Éstel cogió el libro confusa y comenzó a ojearlo{/i}"
     call playerTOfairy
     girl "Está... ¡Está aquí! ¡En el libro!"
@@ -114,10 +114,10 @@ label sc_009_panic_moment:
     girl "Entonces... tú eres la gran maga."
     call playerFROMfairy
     fairy "Bueno, en realidad ahora la gran maga eres tú. Yo sólo soy una Naira."
-    # TRANSICION AL VIEJO
+    call NOplayer_fairy
     elder "¡Así que aquí estabais!"
     hide fairy with dissolve
-    show player left at ccleft with dissolve
+    show player left at cleft with dissolve
     show fairy left at ccleft with dissolve
     show elder right at cright with dissolve
     pause
@@ -137,7 +137,7 @@ label sc_009_panic_moment:
     hide player left at ccleft with dissolve
     hide fairy left at ccleft with dissolve
     hide elder right at cright with dissolve
-    scene text forest 3 with fade
+    scene bg forest clear with fade
     call playerFROMfairy
     fairy "Éstel"
     call playerTOfairy

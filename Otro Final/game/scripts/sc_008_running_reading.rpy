@@ -1,10 +1,10 @@
 label sc_008_running_reading:
-    scene text normal with fade
+    scene text forest 1 with fade
     nvl_narrator "{enf}Las dos intentaban con todas sus fuerzas mantenerse alejadas de la criatura{/enf}"
     nvl_narrator "{enf}Se esforzaban por mantenerse a salvo y continuar a salvo y continuar la historia{/enf}"
-    nvl_narrator "{enf}Pero la criatura era implacable y apenas la sacaan suficiente ventaja como para pararse a descansar{/enf}"
-    nvl_narrator "{enf}Ni siquiera tenían momneto para contemplar lo que sucedía a su alrededor{/enf}"
-    scene bg forest 3 with dissolve
+    nvl_narrator "{enf}Pero la criatura era implacable y apenas le sacaban suficiente ventaja como para pararse a descansar{/enf}"
+    nvl_narrator "{enf}Ni siquiera tenían momento para contemplar lo que sucedía a su alrededor{/enf}"
+    scene bg forest dark with fade
     call playerTOfairy
     girl "¿Qué hacemos Sairina? Cada vez está más cerca."
     girl "Casi diría que cada vez está más enfadado."

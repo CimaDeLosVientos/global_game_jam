@@ -1,4 +1,4 @@
-Sun Jan 31 13:29:50 2021
+Sun Jan 31 15:24:24 2021
 Linux-4.9.0-14-amd64-x86_64-with-debian-9.13
 Ren'Py 7.4.1.1270
  
@@ -457,7 +457,7 @@ Importing _renpysteam: ImportError('No module named _renpysteam',)
 /home/seind/Desarrollo/renpy-7.4.1-sdk
 /home/seind/Desarrollo/renpy-7.4.1-sdk/src/helpers.py
 /home/seind/Desarrollo/renpy-7.4.1-sdk
- - Init at game/script.rpy:12 took 0.54751 s.
+ - Init at game/script.rpy:11 took 0.54819 s.
 Cargado
 /home/seind/Desarrollo/renpy-7.4.1-sdk/src/helpers.py
 /home/seind/Desarrollo/renpy-7.4.1-sdk
@@ -905,7 +905,7 @@ Cargado
 /home/seind/Desarrollo/renpy-7.4.1-sdk
 /home/seind/Desarrollo/renpy-7.4.1-sdk/src/helpers.py
 /home/seind/Desarrollo/renpy-7.4.1-sdk
- - Init at game/scripts/minigames.rpy:1 took 0.54287 s.
+ - Init at game/scripts/minigames.rpy:1 took 0.54143 s.
 Running init code took 1.11s
 Loading analysis data took 0.01s
 Analyze and compile ATL took 0.00s
@@ -924,11 +924,11 @@ Load screen analysis took 0.00s
 Analyze screens took 0.01s
 Save screen analysis took 0.05s
 Prepare screens took 0.04s
-Save pyanalysis. took 0.00s
+Save pyanalysis. took 0.05s
 Save bytecode. took 0.02s
 Running _start took 0.00s
 Performance test:
-Interface start took 0.20s
+Interface start took 0.10s
 
 Initializing gl renderer:
 primary display bounds: (1920, 0, 1920, 1080)
@@ -1354,26 +1354,8 @@ Texture testing:
 Screen sizes: virtual=(1920, 1080) physical=(1739, 978) drawable=(1739, 978)
 Root FBO is: 0
 FBO Maximum Texture Size: 2048
-Total time until interface ready: 1.95248293877s
+Total time until interface ready: 1.93726015091s
 Screen sizes: virtual=(1920, 1080) physical=(1920, 1016) drawable=(1920, 1016)
 Root FBO is: 0
 FBO Maximum Texture Size: 2048
 controller: '030000005e0400008e02000014010000' 'X360 Controller' 1
-
-Full traceback:
-  File "game/scripts/sc_007_reading_conversation.rpy", line 8, in script call
-    call girlFROMfairy
-  File "/home/seind/Desarrollo/renpy-7.4.1-sdk/renpy/ast.py", line 1444, in execute
-    rv = renpy.game.context().call(label, return_site=self.next.name)
-  File "game/scripts/sc_007_reading_conversation.rpy", line 8, in script call
-    call girlFROMfairy
-  File "/home/seind/Desarrollo/renpy-7.4.1-sdk/renpy/script.py", line 900, in lookup
-    raise ScriptError("could not find label '%s'." % str(original))
-ScriptError: could not find label 'girlFROMfairy'.
-
-While running game code:
-  File "game/scripts/sc_007_reading_conversation.rpy", line 8, in script call
-    call girlFROMfairy
-  File "game/scripts/sc_007_reading_conversation.rpy", line 8, in script call
-    call girlFROMfairy
-ScriptError: could not find label 'girlFROMfairy'.

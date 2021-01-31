@@ -1,10 +1,13 @@
 label sc_006_book_enemy:
-    call playerTOfairy
+    scene bg forest clear with fade
+    call playerFROMfairy
     fairy "Esto se está volviendo cada vez más peligroso."
+    call playerTOfairy
     girl "Sí..."
     girl "¡Pero no podemos volver ahora!"
     girl "Estamos cada vez más cerca de algo, lo presiento."
     girl "Cada vez hay más zonas verdes, esto es muy extraño."
+    call playerFROMfairy
     fairy "Sí, es cierto."
     fairy "Y parece que todo esto nos está llevando en una dirección, así que es posible que si encontramos alguna respuesta..."
     call playerTOfairy
@@ -25,7 +28,7 @@ label sc_006_book_enemy:
     nvl_narrator "{enf}Cuando se acercaron y pusieron verlo mejor descubrieron que se trataba de un objeto que había en árbol{/enf}"
     nvl_narrator "{enf}Se acercaron como hechizadas y maravilladas por aquel árbol resplandeciente y aquel objeto que había en él{/enf}"
     nvl_narrator "{enf}Quizá ese fuera el objeto mágico que perteneció a la gran maga...{/enf}"
-    scene bg  forest book with fade
+    scene bg forest book with fade
     call playerTOfairy
     girl "Mira, parece un libro."
     call NOplayer_fairy
@@ -48,7 +51,6 @@ label sc_006_book_enemy:
     call playerTOfairy
     girl "¡No, es mucho mejor así!"
     girl "¿Crees que podríamos intentar...?"
-    call HIDE
     scene text grey with fade
     nvl_narrator "{enf}Un poderoso y escalofriante rugido les sobresaltó{/enf}"
     nvl_narrator "{enf}Rebotando entre los árboles de aquel taciturno bosque, parecía venir de todas partes{/enf}"
@@ -56,7 +58,7 @@ label sc_006_book_enemy:
     nvl_narrator "{enf}Pero entonces la figura de una criatura oscura de rojizos ojos se alzó ante ellas{/enf}"
     nvl_narrator "{enf}Esta vez no podían simplemente evitarlo, pues era evidente que la criatura sabía de su presencia en el bosque{/enf}"
     nvl_narrator "{enf}Tendrían que buscar otra manera...{/enf}"
-    scene bg forest dark with fade
+    scene bg forest monster with fade
     call playerTOfairy
     girl "¿Qué hacemos?"
     call playerFROMfairy
@@ -80,7 +82,6 @@ label sc_006_book_enemy:
     fairy "Tú intenta contarle la historia, pero no dejes de moverte."
     fairy "Iremos avanzando en dirección a la salida en dirección a la salida por si no funciona."
     fairy "Está bien, guíame, yo seguiré tu luz."
-    call HIDE
     scene text grey with fade
     nvl_narrator "{enf}Éstel ayudada por la luz de Sairina comenzó a leer la historia que contenía el libro en voz alta{/enf}"
     nvl_narrator "{enf}El libro comenzó a brillar y la magia comenzó a cambiar el lugar como contaba la antigua historia{/enf}"
