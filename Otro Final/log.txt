@@ -1,4 +1,4 @@
-Sun Jan 31 04:02:13 2021
+Sun Jan 31 05:59:31 2021
 Linux-4.9.0-14-amd64-x86_64-with-debian-9.13
 Ren'Py 7.4.1.1270
  
@@ -7,7 +7,7 @@ Bootstrap to the start of init.init took 0.05s
 Early init took 0.00s
 Loader init took 0.00s
 Loading error handling took 0.01s
-Loading script took 0.05s
+Loading script took 0.09s
 Loading save slot metadata. took 0.01s
 Loading persistent took 0.00s
 Importing _renpysteam: ImportError('No module named _renpysteam',)
@@ -457,7 +457,7 @@ Importing _renpysteam: ImportError('No module named _renpysteam',)
 /home/seind/Desarrollo/renpy-7.4.1-sdk
 /home/seind/Desarrollo/renpy-7.4.1-sdk/src/helpers.py
 /home/seind/Desarrollo/renpy-7.4.1-sdk
- - Init at game/script.rpy:12 took 0.54723 s.
+ - Init at game/script.rpy:12 took 0.54908 s.
 Cargado
 /home/seind/Desarrollo/renpy-7.4.1-sdk/src/helpers.py
 /home/seind/Desarrollo/renpy-7.4.1-sdk
@@ -905,11 +905,12 @@ Cargado
 /home/seind/Desarrollo/renpy-7.4.1-sdk
 /home/seind/Desarrollo/renpy-7.4.1-sdk/src/helpers.py
 /home/seind/Desarrollo/renpy-7.4.1-sdk
- - Init at game/scripts/minigames.rpy:1 took 0.54209 s.
-Running init code took 1.11s
+ - Init at game/scripts/minigames.rpy:1 took 0.54548 s.
+Running init code took 1.12s
 Loading analysis data took 0.01s
 Analyze and compile ATL took 0.00s
 Index archives took 0.00s
+Backing up script files to '/home/seind/.renpy/backups/Otro Final':
 Dump and make backups. took 0.04s
 Cleaning cache took 0.00s
 Making clean stores took 0.00s
@@ -917,17 +918,17 @@ Initial gc. took 0.02s
 DPI scale factor: 1.000000
 Creating interface object took 0.00s
 Cleaning stores took 0.00s
-Init translation took 0.02s
+Init translation took 0.03s
 Build styles took 0.00s
-Load screen analysis took 0.01s
-Analyze screens took 0.00s
-Save screen analysis took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.05s
 Prepare screens took 0.04s
 Save pyanalysis. took 0.00s
 Save bytecode. took 0.00s
 Running _start took 0.00s
 Performance test:
-Interface start took 0.20s
+Interface start took 0.11s
 
 Initializing gl renderer:
 primary display bounds: (1920, 0, 1920, 1080)
@@ -1353,7 +1354,7 @@ Texture testing:
 Screen sizes: virtual=(1920, 1080) physical=(1739, 978) drawable=(1739, 978)
 Root FBO is: 0
 FBO Maximum Texture Size: 2048
-Total time until interface ready: 1.87401390076s
+Total time until interface ready: 1.87248516083s
 Screen sizes: virtual=(1920, 1080) physical=(1920, 1016) drawable=(1920, 1016)
 Root FBO is: 0
 FBO Maximum Texture Size: 2048

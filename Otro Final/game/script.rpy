@@ -12,7 +12,7 @@ define evil = Character("EVIL")
 init -1 python:
     from src.game import Game
     from src.parameters import MINIGAMES_DATA
-
+    extra_size = 50
     data = {}
     scenes_1 = {
         "init" : Game(MINIGAMES_DATA["1"])
@@ -31,6 +31,23 @@ init -1 python:
     }
 
 
+    def narratoy_enfasis_tag(tag, argument, contents):
+
+        size = 80
+
+        return [
+                (renpy.TEXT_TAG, u"size={}".format(size)),
+            ] + contents + [
+                (renpy.TEXT_TAG, u"/size"),
+            ]
+
+    config.custom_text_tags["enf"] = narratoy_enfasis_tag
+
+label tonto:
+    "ERES TONTO"
+    return
+label tonto2:
+    show player right
 label test_zone:
 
     # Muestra una imagen de fondo: Aquí se usa un marcador de posición por
@@ -40,9 +57,11 @@ label test_zone:
     scene bg forest dark
     show logo x p at center0
     narrator "Has creado un nuevo juego Ren'Py."
+    call tonto
     show logo j at center1
     narrator "Has creado un nuevo juego Ren'Py."
     show logo x p k at center2
+    call tonto2
     narrator "Has creado un nuevo juego Ren'Py."
     show logo at center3
     # Muestra un personaje: Se usa un marcador de posición. Es posible
@@ -74,9 +93,9 @@ label test_zone:
     # Finaliza el juego:
 label start:
     #$ _skipping = False
+    #jump test_zone
     #jump sc_001_story_telling
     jump sc_002_elder_girl_conversation
-    jump test_zone
 
 
     return

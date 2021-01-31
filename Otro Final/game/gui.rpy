@@ -13,9 +13,9 @@ init python:
 
 ### Posiciones personalizadas
 transform cleft:
-    xalign 300.0 yalign 300.0
+    xpos 300 ypos 300
 transform cright:
-    xalign 1200.0 yalign 300.0
+    xpos 1200 ypos 300
 
 transform center0:
     xalign 0.10 yalign 0.0
@@ -63,7 +63,7 @@ define gui.muted_color = u'#3d1466'
 define gui.hover_muted_color = u'#5b1e99'
 
 ## Colores del texto del diálogo y menú.
-define gui.text_color = u'#ffffff'
+define gui.text_color = u'#42210b'
 define gui.interface_text_color = u'#ffffff'
 
 
@@ -110,7 +110,7 @@ define gui.game_menu_background = "gui/game_menu.jpg"
 ## línea cada vez.
 
 ## Altura de la caja de texto que contiene el diálogo.
-define gui.textbox_height = 305 # 278
+define gui.textbox_height = 325 # 278
 
 ## Colocación vertical de la caja de texto en la pantalla. 0.0 para la parte
 ## superior, 0.5 para el centro y 1.0 para la parte inferior.
@@ -383,7 +383,7 @@ define gui.nvl_borders = Borders(0, 220, 0, 30) # Borders(0, 15, 0, 30)
 
 ## Máximo número de entradas en modo NVL que Ren'Py presentará. Al presentar más
 ## entradas, se borrarán las más antiguas.
-define gui.nvl_list_length = 6
+define gui.nvl_list_length = 1
 
 ## Altura de una entrada en modo NVL. Ajusta a 'None' para que las entradas
 ## ajusten la altura dinámicamente.
