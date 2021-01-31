@@ -14,8 +14,20 @@ init -1 python:
     from src.parameters import MINIGAMES_DATA
 
     data = {}
-    scenes = {
+    scenes_1 = {
+        "init" : Game(MINIGAMES_DATA["1"])
+    }
+    scenes_2 = {
+        "init" : Game(MINIGAMES_DATA["2"])
+    }
+    scenes_3 = {
         "init" : Game(MINIGAMES_DATA["3"])
+    }
+    scenes_4 = {
+        "init" : Game(MINIGAMES_DATA["4"])
+    }
+    scenes_5 = {
+        "init" : Game(MINIGAMES_DATA["5"])
     }
 
 
@@ -36,13 +48,13 @@ label test_zone:
     # Muestra un personaje: Se usa un marcador de posición. Es posible
     # reemplazarlo añadiendo un archivo llamado "eileen happy.png" al directorio
     # 'images'.
+    jump minigame_1
     python:
         director = Director(scenes, data)
         ui.add(director)
         winner = ui.interact(suppress_overlay=True, suppress_underlay=True)
         ui.remove(director)
     narrator "Has creado un nuevo juego Ren'Py."
-    jump cosa
     menu:
         "{b}patata{\b}":
             e"jajajaj"
@@ -61,7 +73,9 @@ label test_zone:
     e "Añade una historia, imágenes y música, ¡y puedes presentarlo al mundo!"
     # Finaliza el juego:
 label start:
+    #$ _skipping = False
     #jump sc_001_story_telling
+    jump sc_002_elder_girl_conversation
     jump test_zone
 
 

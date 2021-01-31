@@ -1,4 +1,5 @@
 label sc_005_before_book:
+    scene bg forest dark with dissolve
     girl "Bien, lo he conseguido."
     fairy "Sí, lo has hecho muy bien."
     fairy "Pero ahora y sabemos que sí hay criaturas en este bosque."
@@ -6,7 +7,8 @@ label sc_005_before_book:
     girl "Sí, sí. Tendremos mucho cuidado."
     girl "Pero creo que si sigues marcándome el camino no tendremos mucho problema."
     fairy "Aún así, debemos ser precavidas, no sabemos que más hay en el bosque."
-    scene bg text forest
+    window hide
+    scene text forest with dissolve
     nvl_narrator "El SER y la joven siguieron avanzando encontrando a su paso cada vez más señales de vida"
     nvl_narrator "En algunas zonas del suelo crecía la hierba, algunos matojos ya no eran marrones y las ramas más bajas de los árboles comenzaban a tener hojas"
     nvl_narrator "Incluso más adelante, empezaba a haber ya plantas más grandes, incluos arbustos crecidos"
@@ -22,6 +24,7 @@ label sc_005_before_book:
     fairy "Seguro que eso despista a las criaturas."
     fairy "No olvides avanzar poco a poco y observar que hacen las criaturas antes de vovler a moverte."
     fairy "Y ya verás como antes de que te des cuenta volvemos a estar juntas."
-    girl "Vale, trateré de esconderme si hace falta."
+    girl "Vale, trataré de esconderme si hace falta."
     girl "Nos vemos al otro lado."
+
     jump minigame_2

@@ -10,7 +10,7 @@ label sc_006_book_enemy:
     fairy "Sí, la tengo."
     fairy "Pero debemos ser precavidas. Cuanto más nos adentramos, más lejos estamos de la salida."
     girl "Iremos con todo el cuidado del mundo."
-    scene bg text forest
+    scene bg text forest 2 with dissolve
     nvl_narrator "Sabiendo como avanzar de forma segura continuaron su aventura adentrándose aún más en el bosque"
     nvl_narrator "El bosque cada vez era más verde y podría asemejarse a un lugar normal..."
     nvl_narrator "Si no fuera porque las ramas de los árboles aún se entrelazaban entre si dejando que apenas pasara la luz"
@@ -20,7 +20,7 @@ label sc_006_book_enemy:
     nvl_narrator "Cuando se acercaron y pusieron verlo mejor descubrieron que se trataba de un objeto que había en árbol"
     nvl_narrator "Se acercaron como hechizadas y maravilladas por aquel árbol resplandeciente y aquel objeto que había en él"
     nvl_narrator "Quizá ese fuera el objeto mágico que perteneció a la gran maga..."
-    scene bg FondoQueNoTengoJeJeJeJe
+    scene bg FondoQueNoTengoJeJeJeJe with dissolve
     girl "Mira, parece un libro."
     "{i}GIRL se acercó asomada al tronco del árbol y estiró una mano para tocarlo, pero entonces se dio la vuelta hacia HADA{\i}"
     girl "¿Crees que podría cogerlo?"
@@ -35,14 +35,14 @@ label sc_006_book_enemy:
     fairy "Pensé que te decepcionaría que no estuviera lleno de palabras raras y símbolos."
     girl "¡No, es mucho mejor así!"
     girl "¿Crees que podríamos intentar...?"
-    scene bg text grey
+    scene text grey with dissolve
     nvl_narrator "Un poderoso y escalofriante rugido les sobresaltó"
     nvl_narrator "Rebotando entre los árboles de aquel taciturno bosque, parecía venir de todas partes"
     nvl_narrator "Se apresuraron a salir del claro e intentar alejarse"
     nvl_narrator "Pero entonces la figura de una criatura oscura de rojizos ojos se alzó ante ellas"
     nvl_narrator "Esta vez no podían simplemente evitarlo, pues era evidente que la criatura sabía de su presencia en el bosque"
     nvl_narrator "Tendrían que buscar otra manera..."
-    scene bg bosqueMarchito
+    scene bg bosqueMarchito with dissolve
     girl "¿Qué hacemos?"
     fairy "Nuestra estrategia no tiene mucho sentido ahora que ya nos ha visto."
     girl "¿Y que hacemos? ¡¿Qué hacemos?!"

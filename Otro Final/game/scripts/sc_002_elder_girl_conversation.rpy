@@ -1,5 +1,5 @@
 label sc_002_elder_girl_conversation:
-    scene bg forest 
+    scene bg text forest 1 with dissolve
     elder "Eh…"
     elder "Sí, sí. Es así. Lo recuerdo perfectamente."
     elder "Esa es la historia del Bosque Marchito."
@@ -14,13 +14,14 @@ label sc_002_elder_girl_conversation:
     girl "Pero…"
     girl "Gran Sabio... "
     girl "Los finales no son así…"
-    scene bg text normal
+    window hide
+    scene text normal with dissolve
     nvl_narrator "GIRL tenía una mente despierta y una gran curiosidad por todo lo que le rodeaba"
     nvl_narrator "Le encantaba explorar y también dibujar, siempre iba con su libreta de notas a todas partes"
     nvl_narrator "También era entusiasta, imaginativa y optimista"
     nvl_narrator "Le encantaban las historias del Gran Sabio, por el que sentía una gran admiración y fascinación"
     nvl_narrator "Aunque no siempre estuviera de acuerdo con sus historias…"
-    scene bg forest
+    scene bg text forest 1 with dissolve
     elder "Umm…"
     "{i}El sabio acariciaba sus largas barbas, pensativo, mientras la joven con ojos brillantes y entusiastas esperaba ansiosa alguna sabia respuesta por su parte{i\}"
     elder "Bueno… Sólo hay una forma de que ese no sea el final."
@@ -41,4 +42,5 @@ label sc_002_elder_girl_conversation:
     elder "HADA, por favor, se mi voz y mis ojos acompañando a esa joven."
     elder "Temo que esta historia haya calado hasta hacerse algo personal."
     elder "Que la sabiduría de los SER la acompañen allá donde la lleven sus aventuras."
-    scene bg text normal
+
+    jump sc_003_before_forest

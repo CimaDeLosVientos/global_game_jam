@@ -1,5 +1,6 @@
 label sc_004_within_forest:
-    scene text forest
+    window hide
+    scene text forest with dissolve
     nvl_narrator "Así, la joven y el SER se internaron en el BOSque Marchito"
     nvl_narrator "Caminaron entre los oscuros árboles de desnudas ramas y suelo cubierto de vegetación seca"
     nvl_narrator "Estaba bastante oscuro, pero la luz que emitia HADA les permitía ver lo suficiente como para poder seguir avanzando"
@@ -11,7 +12,7 @@ label sc_004_within_forest:
     nvl_narrator "Poco a poco. Muy poco a poco, comenzaban a ver algún signo de vida, aunque muy leve aún"
     nvl_narrator "La joven estaba entusiasmada con el hallazgo, la convenćía para seguir adelante y aumentaba su entusiasmo"
     nvl_narrator "Quizá demasiado"
-    scene bg forest dark
+    scene bg forest dark with dissolve
     girl "¿Has visto eso? ¡Verde!"
     girl "Ahí hay unos brotes en el suelo, y ahí un pequeño arbusto"
     girl "¡Y ahí hay más!"
@@ -38,4 +39,5 @@ label sc_004_within_forest:
     fairy "Intenta no acercarte demasiado a la criatura."
     girl "Va... Vale."
     girl "Ir pasito a pasito y no acercarme mucho a la criatura. ¡Hecho!"
+    
     jump minigame_1

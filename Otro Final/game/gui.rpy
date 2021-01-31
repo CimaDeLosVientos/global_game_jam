@@ -110,7 +110,7 @@ define gui.game_menu_background = "gui/game_menu.jpg"
 ## línea cada vez.
 
 ## Altura de la caja de texto que contiene el diálogo.
-define gui.textbox_height = 278
+define gui.textbox_height = 305 # 278
 
 ## Colocación vertical de la caja de texto en la pantalla. 0.0 para la parte
 ## superior, 0.5 para el centro y 1.0 para la parte inferior.
@@ -120,17 +120,17 @@ define gui.textbox_yalign = 1.0
 ## Colocación del nombre del personaje hablante, relativa a la caja de texto.
 ## Puede ser el númerode píxels desde la esquina superior izquierda, o 0.5 para
 ## centrar.
-define gui.name_xpos = 360
-define gui.name_ypos = 0
+define gui.name_xpos = 551 # 360
+define gui.name_ypos = - 96 + gui.textbox_height - 278 # 0
 
 ## La alineación horizontal del nombre del personaje. (0.0 es izquierda, 0.5 es
 ## centro, 1.0 es derecha).
-define gui.name_xalign = 0.0
+define gui.name_xalign = 0.5 # 0.0
 
 ## La anchura, altura y bordes de la caja que contiene el nombre del personaje,
 ## o 'None' para dimensión automática.
-define gui.namebox_width = None
-define gui.namebox_height = None
+define gui.namebox_width = 404 # None
+define gui.namebox_height = 64 # None
 
 ## Los bordes de la caja que contiene el nombre del personaje, en orden:
 ## izquierda, arriba, derecha, abajo.
@@ -379,7 +379,7 @@ define gui.history_text_xalign = 0.0
 ## La pantalla NVL-mode presenta el diálogo hablado por personajes en modo NVL.
 
 ## Bordes del fondo de la ventana del modo NVL.
-define gui.nvl_borders = Borders(0, 15, 0, 30)
+define gui.nvl_borders = Borders(0, 220, 0, 30) # Borders(0, 15, 0, 30)
 
 ## Máximo número de entradas en modo NVL que Ren'Py presentará. Al presentar más
 ## entradas, se borrarán las más antiguas.
@@ -387,7 +387,7 @@ define gui.nvl_list_length = 6
 
 ## Altura de una entrada en modo NVL. Ajusta a 'None' para que las entradas
 ## ajusten la altura dinámicamente.
-define gui.nvl_height = 173
+define gui.nvl_height = None # 173
 
 ## Espacio entre entradas en modo NVL cuando 'gui.nvl_height' es None, y entre
 ## las entradas en modo NVL y el menú en modo NVL.

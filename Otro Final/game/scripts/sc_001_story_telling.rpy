@@ -1,12 +1,13 @@
 label sc_001_story_telling:
-    scene bg text normal
+    window hide
+    scene text normal with dissolve
     nvl clear
-    "Una cálida mañana de primavera, sentado a la sombra y entre las raíces de un árbol ancestral..."
+    nvl_narrator "Una cálida mañana de primavera, sentado a la sombra y entre las raíces de un árbol ancestral..."
     nvl_narrator "Un ser de gran sabiduría, conocido y respetado por todos, narraba a oídos y ojos atentos la siguiente historia."
     nvl_narrator "Érase una vez un gran bosque que había caído bajo desdicha de una maldición..."
     nvl_narrator "Y tan antigua era esta que nada ni nadie recordaba por qué o cómo había llegado hasta ese lugar"
     nvl_narrator "Aquel bosque, lejos de verse verde, orgulloso y lleno de vida..."
-    scene bg text grey
+    scene text grey with dissolve
     nvl clear
     nvl_narrator "Parecía marchito y gris, como sumido en un triste letargo"
     nvl_narrator "Dicen que las pocas criaturas que aún habitaban en él estaban llenas de una irracional y profunda oscuridad"
@@ -17,7 +18,7 @@ label sc_001_story_telling:
     nvl_narrator "Pero no como si buscaran el abrazo de un hermano, si no como si fueran enormes zarzales que quisieran entretejer redes espinosas"
     nvl_narrator "Todo parecía perdido para aquel lugar condenado al abandono..."
     nvl_narrator "Pero si fuera así, no estaríamos aquí escuchando esta historia"
-    scene bg text normal
+    scene text normal with dissolve
     nvl clear
     nvl_narrator "Bien... Un día llegó hasta la linde de aquel bosque alguien con un gran don"
     nvl_narrator "La leyenda dice que era una maga y que las palabras que ella pronunciaba tenían el poder de hacer maravillas"
@@ -33,7 +34,7 @@ label sc_001_story_telling:
     nvl_narrator "parecían estar recuperando su aspecto natural en tanto que la oscuridad abandonaba sus cuerpos"
     nvl_narrator "Así, el bosque empezó a volver a la vida, las plantas volvían a crecer y todas las criaturas se recuperaban de su extraño hechizo"
     nvl_narrator "Todas"
-    scene bg text dark
+    scene text dark with dissolve
     nvl clear
     nvl_narrator "Menos una"
     nvl_narrator "Y ésta, queridos míos, supuso el grano de arena que desequilibró la balanza"
@@ -42,10 +43,10 @@ label sc_001_story_telling:
     nvl_narrator "Y entonces todo se volvió oscuro otra vez y el bosque se encerró en sí mismo de nuevo"
     nvl_narrator "Quizá esperando volver a tener una oportunidad"
     "Pero…"
-    scene bg text grey
+    scene text grey with dissolve
     nvl clear
     "¡Pero…!"
-    scene bg text normal
+    scene text normal with dissolve
     nvl clear
     girl "¡Ese no puede ser el final de la historia, Gran Sabio!"
 

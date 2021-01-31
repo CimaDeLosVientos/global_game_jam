@@ -56,21 +56,21 @@ class Enemy(Character):
     def __init__(self, alert, position):
         Character.__init__(self, position)
         #self.image = transform.scale(load_image("assets/sprites/game_enemy.png"), OBJECT_SURFACE)
-        self.image = load_image("assets/sprites/game_enemy.png")
+        self.image = load_image("assets/sprites/game_enemy.png") if alert < 10 else load_image("assets/sprites/game_enemy_big.png")
         self.rect = self.image.get_rect()
-        self.rect.topleft = (TILE_MARGIN + self.x * TILE_WIDTH, TILE_MARGIN + self.y * TILE_HEIGHT)
+        self.rect.center = (TILE_MARGIN + self.x * TILE_WIDTH + TILE_WIDTH / 2, TILE_MARGIN + self.y * TILE_HEIGHT + TILE_HEIGHT / 2)
         self.alert = alert
 
     def move(self, board, target):
         x, y = self.get_decision(board, target)
         self.x += x
         self.y += y
-        self.rect.topleft = (self.x * TILE_WIDTH, self.y * TILE_HEIGHT)
+        self.rect.center = (self.x * TILE_WIDTH + TILE_WIDTH / 2, self.y * TILE_HEIGHT + TILE_HEIGHT / 2)
 
     def get_decision(self, board, target):
         x_delta = target[0] - self.x
         y_delta = target[1] - self.y
-        if (x_delta + y_delta) == 0:
+        if (abs(x_delta) + abs(y_delta)) == 0:
             return (0,0)
         if (self.alert**2 > (x_delta**2 + y_delta**2)):  # In range
             if abs(x_delta) > abs(y_delta):
