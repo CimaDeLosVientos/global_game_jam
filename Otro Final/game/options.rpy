@@ -31,7 +31,15 @@ define config.version = "1.0"
 ## comillas triples y deja una línea en blanco entre párrafos.
 
 define gui.about = _p("""
-    QUIERO MI BOCADILLO
+    Créditos
+
+    Programación:
+    (Seind)
+    Adrián Borja Pimentel
+
+    Diseño y Arte:
+    (DarkSaytan)
+    Mireya Capitaine Gómez
 """)
 
 
