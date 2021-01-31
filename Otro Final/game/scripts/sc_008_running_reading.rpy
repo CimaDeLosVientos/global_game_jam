@@ -1,5 +1,5 @@
 label sc_008_running_reading:
-    scene text forest 1 with fade
+    scene bg text forest 1 with fade
     nvl_narrator "{enf}Las dos intentaban con todas sus fuerzas mantenerse alejadas de la criatura{/enf}"
     nvl_narrator "{enf}Se esforzaban por mantenerse a salvo y continuar a salvo y continuar la historia{/enf}"
     nvl_narrator "{enf}Pero la criatura era implacable y apenas le sacaban suficiente ventaja como para pararse a descansar{/enf}"

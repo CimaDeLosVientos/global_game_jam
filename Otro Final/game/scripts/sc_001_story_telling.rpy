@@ -36,12 +36,12 @@ label sc_001_story_telling:
     nvl_narrator "{enf}Todas{/enf}"
     scene text dark with dissolve
     nvl clear
-    nvl_narrator "{enf}Menos una{/enf}"
-    nvl_narrator "{enf}Y ésta, queridos míos, supuso el grano de arena que desequilibró la balanza{/enf}"
-    nvl_narrator "{enf}La criatura, con más ira y crueldad, si cabe, que todas las demás juntas{/enf}"
-    nvl_narrator "{enf}Atacó a nuestra valiente maga dejándola sin vida{/enf}"
-    nvl_narrator "{enf}Y entonces todo se volvió oscuro otra vez y el bosque se encerró en sí mismo de nuevo{/enf}"
-    nvl_narrator "{enf}Quizá esperando volver a tener una oportunidad{/enf}"
+    nvl_narrator "{color=c8c8c8}{enf}Menos una{/enf}{/color}"
+    nvl_narrator "{color=c8c8c8}{enf}Y ésta, queridos míos, supuso el grano de arena que desequilibró la balanza{/enf}{/color}"
+    nvl_narrator "{color=c8c8c8}{enf}La criatura, con más ira y crueldad, si cabe, que todas las demás juntas{/enf}{/color}"
+    nvl_narrator "{color=c8c8c8}{enf}Atacó a nuestra valiente maga dejándola sin vida{/enf}{/color}"
+    nvl_narrator "{color=c8c8c8}{enf}Y entonces todo se volvió oscuro otra vez y el bosque se encerró en sí mismo de nuevo{/enf}{/color}"
+    nvl_narrator "{color=c8c8c8}{enf}Quizá esperando volver a tener una oportunidad{/enf}{/color}"
     "Pero…"
     scene text grey with dissolve
     nvl clear
