@@ -23,48 +23,48 @@ label sc_003_before_forest:
     show player right dark at cright with dissolve
     show fairy left at cleft with dissolve
     fairy "Tranquila, soy yo."
-    call fairyFROMplayer
+    call fairyFROMplayer from _call_fairyFROMplayer
     girl "Oh, Sairina, eres tú."
     girl "Había venido a ver como era el bosque de cerca, después de la historia que nos ha contado el Gran Sabio."
-    call fairyTOplayer
+    call fairyTOplayer from _call_fairyTOplayer
     fairy "Tengo la corazonada de que ibas a algo más que a mirar desde la linde del bosque."
-    call fairyFROMplayer
+    call fairyFROMplayer from _call_fairyFROMplayer_1
     girl "Vaya, eres muy lista..."
-    call fairyTOplayer
+    call fairyTOplayer from _call_fairyTOplayer_1
     fairy "Después de la historia que nos han contado, ¿Crees que lo más prudente es entrar ahí dentro?"
-    call fairyFROMplayer
+    call fairyFROMplayer from _call_fairyFROMplayer_2
     girl "Bueno... Pero no parece que haya nada peligroso."
     girl "Está bastante oscuro, pero parece más un sitio aburrido que agresivo."
-    call fairyTOplayer
+    call fairyTOplayer from _call_fairyTOplayer_2
     fairy "Eso puede ser al principio, pero no sabemos que habrá más allá."
-    call fairyFROMplayer
+    call fairyFROMplayer from _call_fairyFROMplayer_3
     girl "Pues... Pues..."
     girl "Más allá..."
     girl "Podría..."
-    call fairyTOplayer
+    call fairyTOplayer from _call_fairyTOplayer_3
     fairy "Podría haber algo interesante ¿no?"
-    call fairyFROMplayer
+    call fairyFROMplayer from _call_fairyFROMplayer_4
     girl "¡Claro! El objeto de la gran maga."
     girl "El que se quedo en el bosque cuando ella..."
     girl "Bueno... Cuando ella..."
-    call fairyTOplayer
+    call fairyTOplayer from _call_fairyTOplayer_4
     fairy "Desapareció."
-    call fairyFROMplayer
+    call fairyFROMplayer from _call_fairyFROMplayer_5
     girl "¡Sí, eso! Cuando ella desapareció."
     girl "El objeto se quedó allí, en el bosque, según la historia del Gran Sabio..."
-    call fairyTOplayer
+    call fairyTOplayer from _call_fairyTOplayer_5
     fairy "Ni siquiera sabemos si esa historia es verdad."
-    call fairyFROMplayer
+    call fairyFROMplayer from _call_fairyFROMplayer_6
     girl "Pero, si no lo fuera, eso significaría que el final de la historia es el que ha contado el Gran Sabio."
     girl "¡Y eso no puede ser!"
     girl "El objeto tiene que estar ahí dentro."
     girl "..."
     girl "Sólo hay que..."
-    call fairyTOplayer
+    call fairyTOplayer from _call_fairyTOplayer_6
     fairy "Está bien, está bien."
     fairy "Te acompañaré."
     fairy "Pero, si el lugar es tan peligroso como cuenta la historia, tendremos que retroceder para no sufrir el mismo destino que la gran maga."
-    call fairyFROMplayer
+    call fairyFROMplayer from _call_fairyFROMplayer_7
     girl "Sí, sí. Está bien."
     girl "¡Gracias Sairina!"
 

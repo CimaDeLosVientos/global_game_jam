@@ -56,11 +56,11 @@ label test_zone:
     scene bg forest dark
     show logo x p at center0
     narrator "Has creado un nuevo juego Ren'Py."
-    call tonto
+    call tonto from _call_tonto
     show logo j at center1
     narrator "Has creado un nuevo juego Ren'Py."
     show logo x p k at center2
-    call tonto2
+    call tonto2 from _call_tonto2
     narrator "Has creado un nuevo juego Ren'Py."
     show logo at center3
     # Muestra un personaje: Se usa un marcador de posición. Es posible

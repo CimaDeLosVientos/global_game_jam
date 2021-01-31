@@ -22,7 +22,7 @@ init -1 python:
 
 label minigame_1:
     pause (1)
-    call HIDE
+    call HIDE from _call_HIDE
     window hide
     python:
         director = Director(scenes_1, data)
@@ -37,7 +37,7 @@ label minigame_1:
 
 label minigame_2:
     pause (1)
-    call HIDE
+    call HIDE from _call_HIDE_1
     window hide
     python:
         director = Director(scenes_2, data)
@@ -52,7 +52,7 @@ label minigame_2:
 
 label minigame_3:
     pause (1)
-    call HIDE
+    call HIDE from _call_HIDE_2
     window hide
     python:
         director = Director(scenes_3, data)
@@ -67,7 +67,7 @@ label minigame_3:
 
 label minigame_4:
     pause (1)
-    call HIDE
+    call HIDE from _call_HIDE_3
     window hide
     python:
         director = Director(scenes_4, data)
@@ -82,7 +82,7 @@ label minigame_4:
 
 label minigame_5:
     pause (1)
-    call HIDE
+    call HIDE from _call_HIDE_4
     window hide
     python:
         director = Director(scenes_5, data)

@@ -1,23 +1,23 @@
 label sc_006_book_enemy:
     scene bg forest clear with fade
-    call playerFROMfairy
+    call playerFROMfairy from _call_playerFROMfairy_7
     fairy "Esto se está volviendo cada vez más peligroso."
-    call playerTOfairy
+    call playerTOfairy from _call_playerTOfairy_7
     girl "Sí..."
     girl "¡Pero no podemos volver ahora!"
     girl "Estamos cada vez más cerca de algo, lo presiento."
     girl "Cada vez hay más zonas verdes, esto es muy extraño."
-    call playerFROMfairy
+    call playerFROMfairy from _call_playerFROMfairy_8
     fairy "Sí, es cierto."
     fairy "Y parece que todo esto nos está llevando en una dirección, así que es posible que si encontramos alguna respuesta..."
-    call playerTOfairy
+    call playerTOfairy from _call_playerTOfairy_8
     girl "Ves, tú también tienes curiosidad."
-    call playerFROMfairy
+    call playerFROMfairy from _call_playerFROMfairy_9
     fairy "Sí, la tengo."
     fairy "Pero debemos ser precavidas. Cuanto más nos adentramos, más lejos estamos de la salida."
-    call playerTOfairy
+    call playerTOfairy from _call_playerTOfairy_9
     girl "Iremos con todo el cuidado del mundo."
-    call HIDE
+    call HIDE from _call_HIDE_5
     scene bg text forest 2 with fade
     nvl_narrator "{enf}Sabiendo como avanzar de forma segura continuaron su aventura adentrándose aún más en el bosque{/enf}"
     nvl_narrator "{enf}El bosque cada vez era más verde y podría asemejarse a un lugar normal...{/enf}"
@@ -29,26 +29,26 @@ label sc_006_book_enemy:
     nvl_narrator "{enf}Se acercaron como hechizadas y maravilladas por aquel árbol resplandeciente y aquel objeto que había en él{/enf}"
     nvl_narrator "{enf}Quizá ese fuera el objeto mágico que perteneció a la gran maga...{/enf}"
     scene bg forest book with fade
-    call playerTOfairy
+    call playerTOfairy from _call_playerTOfairy_10
     girl "Mira, parece un libro."
-    call NOplayer_fairy
+    call NOplayer_fairy from _call_NOplayer_fairy
     "{i}Éstel se acercó asomada al tronco del árbol y estiró una mano para tocarlo, pero entonces se dio la vuelta hacia Sairina{\i}"
-    call playerTOfairy
+    call playerTOfairy from _call_playerTOfairy_11
     girl "¿Crees que podría cogerlo?"
-    call playerFROMfairy
+    call playerFROMfairy from _call_playerFROMfairy_10
     fairy "Bueno, hemos llegado hasta aquí para eso, ¿no?"
-    call NOplayer_fairy
+    call NOplayer_fairy from _call_NOplayer_fairy_1
     "{i}Éstel sonrió ampliamente y se giró hacia el libro e intento abrirlo. Sairina se acercó a ella y miró también{\i}"
     "{i}Tras ver lo que contenía, se preguntó si Éstel se sentiría decepcionada, pero lejos de eso ella habló con una voz totalmente entusiasmada{\i}"
-    call playerTOfairy
+    call playerTOfairy from _call_playerTOfairy_12
     girl "Es un libro... de historias."
     girl "Con ésto hacía magia."
     girl "Por eso sus palabras eran mágicas."
     girl "Se dedicaba a contar historias."
-    call playerFROMfairy
+    call playerFROMfairy from _call_playerFROMfairy_11
     fairy "Me alegro de que te haya gustado tanto."
     fairy "Pensé que te decepcionaría que no estuviera lleno de palabras raras y símbolos."
-    call playerTOfairy
+    call playerTOfairy from _call_playerTOfairy_13
     girl "¡No, es mucho mejor así!"
     girl "¿Crees que podríamos intentar...?"
     scene text grey with fade
@@ -59,25 +59,25 @@ label sc_006_book_enemy:
     nvl_narrator "{enf}Esta vez no podían simplemente evitarlo, pues era evidente que la criatura sabía de su presencia en el bosque{/enf}"
     nvl_narrator "{enf}Tendrían que buscar otra manera...{/enf}"
     scene bg forest monster with fade
-    call playerTOfairy
+    call playerTOfairy from _call_playerTOfairy_14
     girl "¿Qué hacemos?"
-    call playerFROMfairy
+    call playerFROMfairy from _call_playerFROMfairy_12
     fairy "Nuestra estrategia no tiene mucho sentido ahora que ya nos ha visto."
-    call playerTOfairy
+    call playerTOfairy from _call_playerTOfairy_15
     girl "¿Y que hacemos? ¡¿Qué hacemos?!"
-    call playerFROMfairy
+    call playerFROMfairy from _call_playerFROMfairy_13
     fairy "Tendremos que tratar de esquivarle..."
-    call playerTOfairy
+    call playerTOfairy from _call_playerTOfairy_16
     girl "¿Y si usáramos el libro?"
-    call playerFROMfairy
+    call playerFROMfairy from _call_playerFROMfairy_14
     fairy "¿Qué quieres decir?"
-    call playerTOfairy
+    call playerTOfairy from _call_playerTOfairy_17
     girl "La maga usó este libro para calmar a las criaturas, quizá podríamos usarlo nosotras también."
-    call playerFROMfairy
+    call playerFROMfairy from _call_playerFROMfairy_15
     fairy "¿Quieres intentar usar el libro?"
-    call playerTOfairy
+    call playerTOfairy from _call_playerTOfairy_18
     girl "¿Y qué otra cosa podemos hacer?"
-    call playerFROMfairy
+    call playerFROMfairy from _call_playerFROMfairy_16
     fairy "Está bien, está bien..."
     fairy "Tú intenta contarle la historia, pero no dejes de moverte."
     fairy "Iremos avanzando en dirección a la salida en dirección a la salida por si no funciona."

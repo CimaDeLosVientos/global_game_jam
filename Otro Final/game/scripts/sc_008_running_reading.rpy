@@ -5,19 +5,19 @@ label sc_008_running_reading:
     nvl_narrator "{enf}Pero la criatura era implacable y apenas le sacaban suficiente ventaja como para pararse a descansar{/enf}"
     nvl_narrator "{enf}Ni siquiera tenían momento para contemplar lo que sucedía a su alrededor{/enf}"
     scene bg forest dark with fade
-    call playerTOfairy
+    call playerTOfairy from _call_playerTOfairy_19
     girl "¿Qué hacemos Sairina? Cada vez está más cerca."
     girl "Casi diría que cada vez está más enfadado."
     girl "¿Por qué la magia no funciona con él?"
-    call playerFROMfairy
+    call playerFROMfairy from _call_playerFROMfairy_17
     fairy "No lo sé"
     fairy "Quizá debas conseguir terminar la historia."
-    call playerTOfairy
+    call playerTOfairy from _call_playerTOfairy_20
     girl "Estoy tan nerviosa que ni siquiera yo sé de que va la historia."
-    call playerFROMfairy
+    call playerFROMfairy from _call_playerFROMfairy_18
     fairy "No te preocupes, tendrás tiempo para volver a leerlo en otro momento."
     fairy "Espero..."
-    call playerTOfairy
+    call playerTOfairy from _call_playerTOfairy_21
     girl "Intenta ganar un poco más de tiempo."
     girl "Así yo podré esconderme y ganar distancia para poder terminar la historia."
     jump minigame_5

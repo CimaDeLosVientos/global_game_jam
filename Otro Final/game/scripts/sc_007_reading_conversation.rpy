@@ -5,11 +5,11 @@ label sc_007_reading_conversation:
     nvl_narrator "{enf}A su paso, crecía la hierba, se vestian las ramas de los árboles y la sombras parecía retirarse{/enf}"
     nvl_narrator "{enf}Pero no parecía tener efecto sobre la terrible criatura{/enf}"
     scene bg forest dark with fade
-    call playerFROMfairy
+    call playerFROMfairy from _call_playerFROMfairy
     fairy "No está funcionando..."
-    call playerTOfairy
+    call playerTOfairy from _call_playerTOfairy
     girl "¡Funcionará!"
-    call playerFROMfairy
+    call playerFROMfairy from _call_playerFROMfairy_1
     fairy "Mira el bosque, sólo necesitamos más tiempo."
     fairy "Intentaré distraerle"
     fairy "Intenta moverte entre los árboles para ganar distancia."

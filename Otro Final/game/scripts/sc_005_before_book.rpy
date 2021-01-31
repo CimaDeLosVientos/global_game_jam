@@ -1,15 +1,15 @@
 label sc_005_before_book:
     scene bg forest dark with fade
-    call playerTOfairy
+    call playerTOfairy from _call_playerTOfairy_1
     girl "Bien, lo he conseguido."
-    call playerFROMfairy
+    call playerFROMfairy from _call_playerFROMfairy_2
     fairy "Sí, lo has hecho muy bien."
     fairy "Pero ahora y sabemos que sí hay criaturas en este bosque."
     fairy "Y se parecen bastante a lo que describía el Gran Sabio. Así que debemos ir gran cuidado."
-    call playerTOfairy
+    call playerTOfairy from _call_playerTOfairy_2
     girl "Sí, sí. Tendremos mucho cuidado."
     girl "Pero creo que si sigues marcándome el camino no tendremos mucho problema."
-    call playerFROMfairy
+    call playerFROMfairy from _call_playerFROMfairy_3
     fairy "Aún así, debemos ser precavidas, no sabemos que más hay en el bosque."
     window hide
     scene bg text forest 1 with dissolve
@@ -19,23 +19,23 @@ label sc_005_before_book:
     nvl_narrator "{enf}A lo lejos, Sairina de vez en cuando divisó alguna que otra criatura, pero como no estaban realmente cerca d esu camino, no quiso alarmar a la joven{/enf}"
     nvl_narrator "{enf}Y así fue hasta que en su camino volvió a encontrarse una de aquellas grises y extrañas criaturas{/enf}"
     scene bg forest dark with fade
-    call playerTOfairy
+    call playerTOfairy from _call_playerTOfairy_3
     girl "¿Otra más?"
-    call playerFROMfairy
+    call playerFROMfairy from _call_playerFROMfairy_4
     fairy "Sí. Está ahí delante, ten cuidado."
-    call playerTOfairy
+    call playerTOfairy from _call_playerTOfairy_4
     girl "Si vuelves a marcarme el camino, no habrá problema."
-    call playerFROMfairy
+    call playerFROMfairy from _call_playerFROMfairy_5
     fairy "Aún así, he visto alguna que otra criatura, y es posible que ésta no esté sola."
-    call playerTOfairy
+    call playerTOfairy from _call_playerTOfairy_5
     girl "¿Y qué podemos hacer?"
-    call playerFROMfairy
+    call playerFROMfairy from _call_playerFROMfairy_6
     fairy "Yo volveré a buscar el lugar más seguro y tú tendrás que venir hasta mí."
     fairy "Ahora que hay más vegetación, puedes usar los arbustos para esconderte."
     fairy "Seguro que eso despista a las criaturas."
     fairy "No olvides avanzar poco a poco y observar que hacen las criaturas antes de vovler a moverte."
     fairy "Y ya verás como antes de que te des cuenta volvemos a estar juntas."
-    call playerTOfairy
+    call playerTOfairy from _call_playerTOfairy_6
     girl "Vale, trataré de esconderme si hace falta."
     girl "Nos vemos al otro lado."
 
