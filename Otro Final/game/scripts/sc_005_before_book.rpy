@@ -12,13 +12,14 @@ label sc_005_before_book:
     call playerFROMfairy
     fairy "Aún así, debemos ser precavidas, no sabemos que más hay en el bosque."
     window hide
-    call NOplayer_fairy
+    call HIDE
     scene text forest with dissolve
-    nvl_narrator "El SER y la joven siguieron avanzando encontrando a su paso cada vez más señales de vida"
-    nvl_narrator "En algunas zonas del suelo crecía la hierba, algunos matojos ya no eran marrones y las ramas más bajas de los árboles comenzaban a tener hojas"
-    nvl_narrator "Incluso más adelante, empezaba a haber ya plantas más grandes, incluos arbustos crecidos"
-    nvl_narrator "A lo lejos, HADA de vez en cuando divisó alguna que otra criatura, pero como no estaban realmente cerca d esu camino, no quiso alarmar a la joven"
-    nvl_narrator "Y así fue hasta que en su camino volvió a encontrarse una de aquellas grises y extrañas criaturas"
+    nvl_narrator "{enf}El Naira y la joven siguieron avanzando encontrando a su paso cada vez más señales de vida{/enf}"
+    nvl_narrator "{enf}En algunas zonas del suelo crecía la hierba, algunos matojos ya no eran marrones y las ramas más bajas de los árboles comenzaban a tener hojas{/enf}"
+    nvl_narrator "{enf}Incluso más adelante, empezaba a haber ya plantas más grandes, incluso arbustos crecidos{/enf}"
+    nvl_narrator "{enf}A lo lejos, Sairina de vez en cuando divisó alguna que otra criatura, pero como no estaban realmente cerca d esu camino, no quiso alarmar a la joven{/enf}"
+    nvl_narrator "{enf}Y así fue hasta que en su camino volvió a encontrarse una de aquellas grises y extrañas criaturas{/enf}"
+    scene bg forest dark with fade
     call playerTOfairy
     girl "¿Otra más?"
     call playerFROMfairy

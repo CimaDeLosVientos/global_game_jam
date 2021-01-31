@@ -44,8 +44,8 @@ label NOelder_player:
     return
 
 label NOplayer_fairy:
-    show elder left dark at cleft
-    show player right dark at cright
+    show player left dark at cleft
+    show fairy right dark at cright
     return
 
 

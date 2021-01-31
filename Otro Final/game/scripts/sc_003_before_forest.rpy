@@ -1,31 +1,30 @@
 label sc_003_before_forest:
     window hide
     scene text normal with fade
-    nvl_narrator "Los SER son criaturas de fantasía de vibrantes y luminosos colores, salidos de la más pura imaginación"
-    nvl_narrator "Se dice que estas criaturas se componen de la imaginación , los pensamientos y los sentimientos de otras criaturas que quedan suspendidos en el aire allá por donde pasán"
-    nvl_narrator "Por eso, dicen, se sienten atraídas por personas imaginativas, sabias y aventureras a las que no dudan en acompañar y ayudar en lo que puedan"
-    nvl_narrator "También se dice que a parte de los cientos de recuerdos, pensamientos e historias de las que se componen guardan la esencia de los ancestros"
-    nvl_narrator "Es decir, de todos aquellos que ya no están pero que dejaron una huella imborrable"
-    nvl_narrator "Es por eso que muchos adivinan entre las lenguas llameantes de la magia que les rodea, un corazón. Símbolo de la vida que late dentro de ellas"
-    nvl_narrator "Sean ciertas o no estás creencias sigue siendo verdad que un SER siempre tratará de traer algo de luz a la oscuridad de la manera que le sea posible"
+    nvl_narrator "{enf}Los Naira son criaturas de fantasía de vibrantes y luminosos colores, salidos de la más pura imaginación{/enf}"
+    nvl_narrator "{enf}Se dice que estas criaturas se componen de la imaginación , los pensamientos y los sentimientos de otras criaturas que quedan suspendidos en el aire allá por donde pasán{/enf}"
+    nvl_narrator "{enf}Por eso, dicen, se sienten atraídas por personas imaginativas, sabias y aventureras a las que no dudan en acompañar y ayudar en lo que puedan{/enf}"
+    nvl_narrator "{enf}También se dice que a parte de los cientos de recuerdos, pensamientos e historias de las que se componen guardan la esencia de los ancestros{/enf}"
+    nvl_narrator "{enf}Es decir, de todos aquellos que ya no están pero que dejaron una huella imborrable{/enf}"
+    nvl_narrator "{enf}Es por eso que muchos adivinan entre las lenguas llameantes de la magia que les rodea, un corazón. Símbolo de la vida que late dentro de ellas{/enf}"
+    nvl_narrator "{enf}Sean ciertas o no estás creencias sigue siendo verdad que un Naira siempre tratará de traer algo de luz a la oscuridad de la manera que le sea posible{/enf}"
 
-    scene bg text forest 1 with fade
-    show girl left at cright
+    scene bg forest clear with fade
+    show player left at cright
     girl "Pues... Aquí es"
     girl "No sé si este bosque será todas las palabras que dijo el Gran Sabio, pero..."
     girl "No parece un sitio muy animado."
     girl "Eso tiene un punto muy positivo y es que si no hay nadie, nadie puede hacerte daño."
-    show girl left dark at cright
-    fairy "Espera, espera."
-    show girl right at cright
+    "Espera, espera."
+    show player right at cright
     girl "¿Eh? ¿Qué?"
     girl "¡Pero si no había nadie!"
     girl "Si antes lo digo..."
-    show girl right dark at cright with dissolve
+    show player right dark at cright with dissolve
     show fairy left at cleft with dissolve
     fairy "Tranquila, soy yo."
     call fairyFROMplayer
-    girl "Oh, HADA, eres tú."
+    girl "Oh, Sairina, eres tú."
     girl "Había venido a ver como era el bosque de cerca, después de la historia que nos ha contado el Gran Sabio."
     call fairyTOplayer
     fairy "Tengo la corazonada de que ibas a algo más que a mirar desde la linde del bosque."
@@ -58,7 +57,7 @@ label sc_003_before_forest:
     call fairyFROMplayer
     girl "Pero, si no lo fuera, eso significaría que el final de la historia es el que ha contado el Gran Sabio."
     girl "¡Y eso no puede ser!"
-    girl "El objeto tiene que estar ahí dentro"
+    girl "El objeto tiene que estar ahí dentro."
     girl "..."
     girl "Sólo hay que..."
     call fairyTOplayer
@@ -67,6 +66,6 @@ label sc_003_before_forest:
     fairy "Pero, si el lugar es tan peligroso como cuenta la historia, tendremos que retroceder para no sufrir el mismo destino que la gran maga."
     call fairyFROMplayer
     girl "Sí, sí. Está bien."
-    girl "¡Gracias HADA!"
+    girl "¡Gracias Sairina!"
 
     jump sc_004_within_forest

@@ -3,9 +3,8 @@
 # Declara los personajes usados en el juego como en el ejemplo:
 
 define elder = Character("Gran Sabio")
-define girl = Character("GIRL")
-define fairy = Character("HADA")
-define evil = Character("EVIL")
+define girl = Character("Éstel")
+define fairy = Character("Sairina")
 
 
 # El juego comienza aquí.

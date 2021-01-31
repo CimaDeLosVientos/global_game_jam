@@ -14,29 +14,29 @@ label sc_006_book_enemy:
     fairy "Pero debemos ser precavidas. Cuanto más nos adentramos, más lejos estamos de la salida."
     call playerTOfairy
     girl "Iremos con todo el cuidado del mundo."
-    scene bg text forest 2 with dissolve
     call HIDE
-    nvl_narrator "Sabiendo como avanzar de forma segura continuaron su aventura adentrándose aún más en el bosque"
-    nvl_narrator "El bosque cada vez era más verde y podría asemejarse a un lugar normal..."
-    nvl_narrator "Si no fuera porque las ramas de los árboles aún se entrelazaban entre si dejando que apenas pasara la luz"
-    nvl_narrator "Y aquellas oscuras y extrañas criaturas deambulaban de un lado para otro como eternamente vigilantes"
-    nvl_narrator "Pero no se les hizo esperar mucho"
-    nvl_narrator "Tras unos cuantos árboles se abría el bosque formando un claro, y en él se hallaba un árbol verde que parecía emanar luz propia"
-    nvl_narrator "Cuando se acercaron y pusieron verlo mejor descubrieron que se trataba de un objeto que había en árbol"
-    nvl_narrator "Se acercaron como hechizadas y maravilladas por aquel árbol resplandeciente y aquel objeto que había en él"
-    nvl_narrator "Quizá ese fuera el objeto mágico que perteneció a la gran maga..."
-    scene bg FondoQueNoTengoJeJeJeJe with dissolve
+    scene bg text forest 2 with fade
+    nvl_narrator "{enf}Sabiendo como avanzar de forma segura continuaron su aventura adentrándose aún más en el bosque{/enf}"
+    nvl_narrator "{enf}El bosque cada vez era más verde y podría asemejarse a un lugar normal...{/enf}"
+    nvl_narrator "{enf}Si no fuera porque las ramas de los árboles aún se entrelazaban entre si dejando que apenas pasara la luz{/enf}"
+    nvl_narrator "{enf}Y aquellas oscuras y extrañas criaturas deambulaban de un lado para otro como eternamente vigilantes{/enf}"
+    nvl_narrator "{enf}Pero no se les hizo esperar mucho{/enf}"
+    nvl_narrator "{enf}Tras unos cuantos árboles se abría el bosque formando un claro, y en él se hallaba un árbol verde que parecía emanar luz propia{/enf}"
+    nvl_narrator "{enf}Cuando se acercaron y pusieron verlo mejor descubrieron que se trataba de un objeto que había en árbol{/enf}"
+    nvl_narrator "{enf}Se acercaron como hechizadas y maravilladas por aquel árbol resplandeciente y aquel objeto que había en él{/enf}"
+    nvl_narrator "{enf}Quizá ese fuera el objeto mágico que perteneció a la gran maga...{/enf}"
+    scene bg  forest book with fade
     call playerTOfairy
     girl "Mira, parece un libro."
     call NOplayer_fairy
-    "{i}GIRL se acercó asomada al tronco del árbol y estiró una mano para tocarlo, pero entonces se dio la vuelta hacia HADA{\i}"
+    "{i}Éstel se acercó asomada al tronco del árbol y estiró una mano para tocarlo, pero entonces se dio la vuelta hacia Sairina{\i}"
     call playerTOfairy
     girl "¿Crees que podría cogerlo?"
     call playerFROMfairy
     fairy "Bueno, hemos llegado hasta aquí para eso, ¿no?"
     call NOplayer_fairy
-    "{i}GIRL sonrió ampliamente y se giró hacia el libro e intento abrirlo. HADA se acercó a ella y miró también{\i}"
-    "{i}Tras ver lo que contenía, se preguntó si GIRL se sentiría decepcionada, pero lejos de eso ella habló con una voz totalmente entusiasmada{\i}"
+    "{i}Éstel sonrió ampliamente y se giró hacia el libro e intento abrirlo. Sairina se acercó a ella y miró también{\i}"
+    "{i}Tras ver lo que contenía, se preguntó si Éstel se sentiría decepcionada, pero lejos de eso ella habló con una voz totalmente entusiasmada{\i}"
     call playerTOfairy
     girl "Es un libro... de historias."
     girl "Con ésto hacía magia."
@@ -48,15 +48,15 @@ label sc_006_book_enemy:
     call playerTOfairy
     girl "¡No, es mucho mejor así!"
     girl "¿Crees que podríamos intentar...?"
-    scene text grey with dissolve
     call HIDE
-    nvl_narrator "Un poderoso y escalofriante rugido les sobresaltó"
-    nvl_narrator "Rebotando entre los árboles de aquel taciturno bosque, parecía venir de todas partes"
-    nvl_narrator "Se apresuraron a salir del claro e intentar alejarse"
-    nvl_narrator "Pero entonces la figura de una criatura oscura de rojizos ojos se alzó ante ellas"
-    nvl_narrator "Esta vez no podían simplemente evitarlo, pues era evidente que la criatura sabía de su presencia en el bosque"
-    nvl_narrator "Tendrían que buscar otra manera..."
-    scene bg bosqueMarchito with dissolve
+    scene text grey with fade
+    nvl_narrator "{enf}Un poderoso y escalofriante rugido les sobresaltó{/enf}"
+    nvl_narrator "{enf}Rebotando entre los árboles de aquel taciturno bosque, parecía venir de todas partes{/enf}"
+    nvl_narrator "{enf}Se apresuraron a salir del claro e intentar alejarse{/enf}"
+    nvl_narrator "{enf}Pero entonces la figura de una criatura oscura de rojizos ojos se alzó ante ellas{/enf}"
+    nvl_narrator "{enf}Esta vez no podían simplemente evitarlo, pues era evidente que la criatura sabía de su presencia en el bosque{/enf}"
+    nvl_narrator "{enf}Tendrían que buscar otra manera...{/enf}"
+    scene bg forest dark with fade
     call playerTOfairy
     girl "¿Qué hacemos?"
     call playerFROMfairy
@@ -81,7 +81,8 @@ label sc_006_book_enemy:
     fairy "Iremos avanzando en dirección a la salida en dirección a la salida por si no funciona."
     fairy "Está bien, guíame, yo seguiré tu luz."
     call HIDE
-    nvl_narrator "GIRL ayudada por la luz de HADA comenzó a leer la historia que contenía el libro en voz alta"
-    nvl_narrator "El libro comenzó a brillar y la magia comenzó a cambiar el lugar como contaba la antigua historia"
-    nvl_narrator "Mientras, HADA intentaba guiarlas por un lugar seguro para que ella pudiera continuar leyendo aquella mágica historia"
+    scene text grey with fade
+    nvl_narrator "{enf}Éstel ayudada por la luz de Sairina comenzó a leer la historia que contenía el libro en voz alta{/enf}"
+    nvl_narrator "{enf}El libro comenzó a brillar y la magia comenzó a cambiar el lugar como contaba la antigua historia{/enf}"
+    nvl_narrator "{enf}Mientras, Sairina intentaba guiarlas por un lugar seguro para que ella pudiera continuar leyendo aquella mágica historia{/enf}"
     jump minigame_3
