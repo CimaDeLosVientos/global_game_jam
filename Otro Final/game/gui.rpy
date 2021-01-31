@@ -41,7 +41,7 @@ transform center3:
 ## Los colores del texto de la interfaz
 
 ## El color enfatizado usado en la interfaz para subrayar texto.
-define gui.accent_color = u'#9933ff'
+define gui.accent_color = u'#ffe3bf'
 
 ## El color del botón de texto cuando no está seleccionado ni enfocado.
 define gui.idle_color = u'#888888'
@@ -50,7 +50,7 @@ define gui.idle_color = u'#888888'
 define gui.idle_small_color = u'#aaaaaa'
 
 ## El color usado en botones y barras que ganan foco.
-define gui.hover_color = u'#c184ff'
+define gui.hover_color = u'#fff6eb'
 
 ## El color del botón de texto seleccionado pero no enfocado. Un botón está
 ## seleccionado si indica el valor actual de la pantalla o preferencia.
@@ -81,13 +81,13 @@ define gui.name_text_font = "fonts/HARNGTON.TTF"
 define gui.interface_text_font = "fonts/HARNGTON.TTF"
 
 ## El tamaño normal del texto del diálogo.
-define gui.text_size = 33
+define gui.text_size = 30
 
 ## El tamaño de los nombres de los personajes
-define gui.name_text_size = 45
+define gui.name_text_size = 40
 
 ## El tamaño del texto en la interfaz.
-define gui.interface_text_size = 33
+define gui.interface_text_size = 40
 
 ## El tamaño de etiquetas en la interfaz.
 define gui.label_text_size = 36
@@ -96,7 +96,7 @@ define gui.label_text_size = 36
 define gui.notify_text_size = 24
 
 ## El tamaño del título del juego.
-define gui.title_text_size = 75
+define gui.title_text_size = 20
 
 
 ## Menú principal y menús del juego ############################################
@@ -136,7 +136,7 @@ define gui.namebox_height = 64 # None
 
 ## Los bordes de la caja que contiene el nombre del personaje, en orden:
 ## izquierda, arriba, derecha, abajo.
-define gui.namebox_borders = Borders(5, 5, 5, 5)
+define gui.namebox_borders = Borders(5, 0, 5, 5)
 
 ## Si es 'True, el fondo de la caja del nombre será en mosaico, si es 'False',
 ## el fondo, si la caja del nombre es escalada.
@@ -410,10 +410,10 @@ define gui.nvl_text_xalign = 0.0
 
 ## Posición, anchura y alineación del texto 'nvl_thought' (texto dicho por el
 ## personaje 'nvl_narrator').
-define gui.nvl_thought_xpos = 360
-define gui.nvl_thought_ypos = 0
+define gui.nvl_thought_xpos = 965
+define gui.nvl_thought_ypos = 150
 define gui.nvl_thought_width = 1170
-define gui.nvl_thought_xalign = 0.0
+define gui.nvl_thought_xalign = 0.5
 
 ## Posición de los botones de menú NVL.
 define gui.nvl_button_xpos = 675

@@ -32,7 +32,7 @@ init -1 python:
 
     def narratoy_enfasis_tag(tag, argument, contents):
 
-        size = 80
+        size = 60
 
         return [
                 (renpy.TEXT_TAG, u"size={}".format(size)),
