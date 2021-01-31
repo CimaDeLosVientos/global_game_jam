@@ -48,6 +48,27 @@ label NOplayer_fairy:
     show player right dark at cright
     return
 
+
+label PLAYER_fairy_elder:
+    show fairy left dark at ccleft
+    show player left at cleft
+    show elder right dark at cright
+    return
+
+label player_FAIRY_elder:
+    show fairy left at ccleft
+    show player left dark at cleft
+    show elder right dark at cright
+    return
+
+label player_fairy_ELDER:
+    show fairy left dark at ccleft
+    show player left dark at cleft
+    show elder right at cright
+    return
+
+
+
 label HIDE:
     hide elder with dissolve
     hide player with dissolve

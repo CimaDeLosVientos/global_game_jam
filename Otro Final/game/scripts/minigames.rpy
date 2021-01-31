@@ -86,6 +86,6 @@ label minigame_5:
         ui.remove(director)
 
     if winner:
-        jump sc_009
+        jump sc_009_panic_moment
     else:
         jump dead_end
