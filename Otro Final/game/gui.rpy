@@ -123,7 +123,7 @@ define gui.textbox_yalign = 1.0
 ## Puede ser el númerode píxels desde la esquina superior izquierda, o 0.5 para
 ## centrar.
 define gui.name_xpos = 551 # 360
-define gui.name_ypos = - 96 + gui.textbox_height - 278 # 0
+define gui.name_ypos = - 93 + gui.textbox_height - 278 # 0
 
 ## La alineación horizontal del nombre del personaje. (0.0 es izquierda, 0.5 es
 ## centro, 1.0 es derecha).

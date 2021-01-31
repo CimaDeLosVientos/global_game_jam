@@ -9,3 +9,4 @@ label basic_end:
 label credits:
     scene bg text forest 3
     nvl_narrator "{enf}Gracias por jugar :){/enf}"
+    return
