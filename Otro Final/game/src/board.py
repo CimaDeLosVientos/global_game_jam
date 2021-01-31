@@ -95,10 +95,10 @@ class Board(sprite.Sprite):
     def update(self, time):
         player_pos = (self.player.x, self.player.y)
         if player_pos == self.goal_pos:
-            return "PLAYER WINS"
+            return "True"
         for enemy in self.enemies:
             if (enemy.x, enemy.y) == player_pos:
-                return "Haber si me muero"
+                return "False"
 
     def on_draw(self, screen):
         screen.blit(self.background, self.background_rect.topleft)

@@ -30,7 +30,7 @@ label minigame_1:
         winner = ui.interact(suppress_overlay=True, suppress_underlay=True)
         ui.remove(director)
 
-    if winner:
+    if winner == "True":
         jump sc_005_before_book
     else:
         jump dead_end
@@ -45,7 +45,7 @@ label minigame_2:
         winner = ui.interact(suppress_overlay=True, suppress_underlay=True)
         ui.remove(director)
 
-    if winner:
+    if winner == "True":
         jump sc_006_book_enemy
     else:
         jump dead_end
@@ -60,7 +60,7 @@ label minigame_3:
         winner = ui.interact(suppress_overlay=True, suppress_underlay=True)
         ui.remove(director)
 
-    if winner:
+    if winner == "True":
         jump sc_007_reading_conversation
     else:
         jump dead_end
@@ -75,7 +75,7 @@ label minigame_4:
         winner = ui.interact(suppress_overlay=True, suppress_underlay=True)
         ui.remove(director)
 
-    if winner:
+    if winner == "True":
         jump sc_008_running_reading
     else:
         jump dead_end
@@ -90,7 +90,7 @@ label minigame_5:
         winner = ui.interact(suppress_overlay=True, suppress_underlay=True)
         ui.remove(director)
 
-    if winner:
+    if winner == "True":
         jump sc_009_panic_moment
     else:
         jump dead_end
