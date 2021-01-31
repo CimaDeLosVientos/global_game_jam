@@ -2,9 +2,9 @@
 
 # Declara los personajes usados en el juego como en el ejemplo:
 
-define elder = Character("Gran Sabio")
-define girl = Character("Éstel")
-define fairy = Character("Sairina")
+define elder = Character("Gran Sabio", color="#ffe3bf")
+define girl = Character("Éstel", color="#ffe3bf")
+define fairy = Character("Sairina", color="#ffe3bf")
 
 
 # El juego comienza aquí.
