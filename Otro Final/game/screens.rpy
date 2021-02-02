@@ -372,11 +372,11 @@ screen main_menu():
     if gui.show_name:
 
         vbox:
-            text "[config.name!t]":
+            text "[config.name!t] [config.version]":
                 style "main_menu_title"
 
-            text "[config.version]":
-                style "main_menu_version"
+            #text "[config.version]":
+            #    style "main_menu_title"#"main_menu_version"
 
 
 style main_menu_frame is empty
@@ -396,7 +396,7 @@ style main_menu_vbox:
     xoffset -30
     xmaximum 1200
     yalign 1.0
-    yoffset -30
+    yoffset -60#-30
 
 style main_menu_text:
     properties gui.text_properties("main_menu", accent=True)
@@ -572,7 +572,11 @@ style about_label_text is gui_label_text
 style about_text is gui_text
 
 style about_label_text:
-    size gui.label_text_size
+    size gui.interface_text_size #label_text_size
+
+# NUEVO
+style about_text:
+    size gui.pato
 
 
 ## Pantallas de carga y grabación ##############################################
@@ -723,6 +727,7 @@ screen preferences():
         vbox:
 
             hbox:
+                #null height (10 * gui.pref_spacing)
                 box_wrap True
 
                 if renpy.variant("pc") or renpy.variant("web"):
@@ -735,7 +740,8 @@ screen preferences():
 
                 vbox:
                     style_prefix "radio"
-                    label _("Lado de retroceso")
+                    #label _("Lado de retroceso")
+                    label _("Retroceso")
                     textbutton _("Desactivar") action Preference("rollback side", "disable")
                     textbutton _("Izquierda") action Preference("rollback side", "left")
                     textbutton _("Derecha") action Preference("rollback side", "right")
@@ -846,6 +852,7 @@ style radio_button:
     foreground "gui/button/radio_[prefix_]foreground.png"
 
 style radio_button_text:
+    size gui.pato
     properties gui.button_text_properties("radio_button")
 
 style check_vbox:
@@ -856,6 +863,7 @@ style check_button:
     foreground "gui/button/check_[prefix_]foreground.png"
 
 style check_button_text:
+    size gui.pato
     properties gui.button_text_properties("check_button")
 
 style slider_slider:

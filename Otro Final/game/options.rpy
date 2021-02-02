@@ -14,12 +14,14 @@
 ## El _() que rodea la cadena de texto la señala como traducible.
 
 define config.name = _("Otro Final")
+#NUEVO
+#define config.title_name = _("Otro Final")
 
 
 ## Determina si el título dado más arriba se muestra en el menú principal.
 ## Ajústalo a 'False' para esconder el título.
 
-define gui.show_name = True
+define gui.show_name = False#True
 
 
 ## Versión del juego.

@@ -87,10 +87,13 @@ define gui.text_size = 30
 define gui.name_text_size = 40
 
 ## El tamaño del texto en la interfaz.
-define gui.interface_text_size = 40
+define gui.interface_text_size = 50 #40
 
 ## El tamaño de etiquetas en la interfaz.
-define gui.label_text_size = 36
+define gui.label_text_size = 50#36
+
+## EL TAMAÑO QUE MIREYA QUIERE PARA EL ABOUT
+define gui.pato = 35
 
 ## El tamaño del texto en las notificaciones.
 define gui.notify_text_size = 24
