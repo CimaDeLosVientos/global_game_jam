@@ -1,4 +1,4 @@
-Tue Feb 02 15:13:28 2021
+Thu Feb 04 14:52:19 2021
 Windows-8-6.2.9200
 Ren'Py 7.2.2.491
  
@@ -6,8 +6,8 @@ Ren'Py 7.2.2.491
 Bootstrap to the start of init.init took 0.08s
 Early init took 0.00s
 Loader init took 0.01s
-Loading error handling took 0.02s
-Loading script took 0.34s
+Loading error handling took 0.03s
+Loading script took 0.19s
 Loading save slot metadata. took 0.02s
 Loading persistent took 0.00s
 Importing _renpysteam: ImportError('No module named _renpysteam',)
@@ -904,17 +904,17 @@ D:\Descargas\renpy-7.2.2-sdk\src\helpers.py
 D:\Descargas\renpy-7.2.2-sdk
 D:\Descargas\renpy-7.2.2-sdk\src\helpers.py
 D:\Descargas\renpy-7.2.2-sdk
-Running init code took 2.14s
-Loading analysis data took 0.05s
+Running init code took 2.18s
+Loading analysis data took 0.04s
 Analyze and compile ATL took 0.00s
 Index archives took 0.00s
 Backing up script files to 'C:\\Users\\adrim\\AppData\\Roaming/RenPy/backups\\Otro Final':
-Dump and make backups. took 0.08s
+Dump and make backups. took 0.07s
 Cleaning cache took 0.00s
 Making clean stores took 0.00s
 Initial gc. took 0.02s
 DPI scale factor: 1.000000
-Creating interface object took 0.06s
+Creating interface object took 0.07s
 Cleaning stores took 0.00s
 Init translation took 0.02s
 Build styles took 0.00s
@@ -1352,11 +1352,11 @@ Texture testing:
 - 1024px textures work.
 - 2048px textures work.
 controller: '78696e70757401000000000000000000' 'XInput Controller' 1L
-Total time until interface ready: 3.75699996948s
+Total time until interface ready: 3.65699982643s
 - Target is 5 frames in 0.333333333333 seconds.
 - Frame drawn at 0.000000 seconds.
 - Frame drawn at 0.017333 seconds.
-- Frame drawn at 0.019333 seconds.
-- Frame drawn at 0.053333 seconds.
-- Frame drawn at 0.056333 seconds.
-- 0.056333 seconds to render 5 frames.
+- Frame drawn at 0.020333 seconds.
+- Frame drawn at 0.071333 seconds.
+- Frame drawn at 0.072333 seconds.
+- 0.072333 seconds to render 5 frames.

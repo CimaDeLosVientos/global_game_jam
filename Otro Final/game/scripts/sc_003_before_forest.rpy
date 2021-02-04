@@ -1,13 +1,14 @@
 label sc_003_before_forest:
     window hide
     scene text normal with fade
-    nvl_narrator "{enf}Los Naira son criaturas de fantasía de vibrantes y luminosos colores, salidos de la más pura imaginación{/enf}"
-    nvl_narrator "{enf}Se dice que estas criaturas se componen de la imaginación , los pensamientos y los sentimientos de otras criaturas que quedan suspendidos en el aire allá por donde pasán{/enf}"
-    nvl_narrator "{enf}Por eso, dicen, se sienten atraídas por personas imaginativas, sabias y aventureras a las que no dudan en acompañar y ayudar en lo que puedan{/enf}"
-    nvl_narrator "{enf}También se dice que a parte de los cientos de recuerdos, pensamientos e historias de las que se componen guardan la esencia de los ancestros{/enf}"
-    nvl_narrator "{enf}Es decir, de todos aquellos que ya no están pero que dejaron una huella imborrable{/enf}"
-    nvl_narrator "{enf}Es por eso que muchos adivinan entre las lenguas llameantes de la magia que les rodea, un corazón. Símbolo de la vida que late dentro de ellas{/enf}"
-    nvl_narrator "{enf}Sean ciertas o no estás creencias sigue siendo verdad que un Naira siempre tratará de traer algo de luz a la oscuridad de la manera que le sea posible{/enf}"
+    nvl_narrator "{enf}Los Naira son criaturas de fantasía\nde vibrantes y luminosos colores,\nsalidos de la más pura imaginación.{/enf}"
+    nvl_narrator "{enf}Se dice que estos seres se componen de la imaginación, los pensamientos y los sentimientos que quedan suspendidos en el aire allá por donde otra criatura haya pasado.{/enf}"
+    nvl_narrator "{enf}Por eso, dicen, se sienten atraídas por personas imaginativas, sabias y aventureras a las que no dudan en acompañar y ayudar en lo que puedan.{/enf}"
+    nvl_narrator "{enf}También se dice que, a parte de los cientos de recuerdos, pensamientos e historias de las que se componen, guardan la esencia de los Ancestros.{/enf}"
+    nvl_narrator "{enf}Es decir, de todos aquellos que ya no están, pero que dejaron una huella imborrable.{/enf}"
+    nvl_narrator "{enf}Es por eso que muchos adivinan,\nentre las lenguas llameantes de la magia que les rodea, la forma de un corazón.{/enf}"
+    nvl_narrator "{enf}Símbolo de la vida que late dentro de ellas.{/enf}"
+    nvl_narrator "{enf}Sean ciertas o no estás creencias, sigue siendo verdad que una Naira siempre tratará de traer algo de luz a la oscuridad de la manera que le sea posible.{/enf}"
 
     scene bg forest clear with fade
     show player left at cright
