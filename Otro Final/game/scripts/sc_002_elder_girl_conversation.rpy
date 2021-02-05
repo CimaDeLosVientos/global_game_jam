@@ -2,7 +2,7 @@ label sc_002_elder_girl_conversation:
     scene bg forest clear with dissolve
     show elder left at cleft with dissolve
     elder "Eh…"
-    elder "Sí, sí. Es así. Lo recuerdo perfectamente."
+    elder "Sí,{w} sí. Es así. Lo recuerdo perfectamente."
     elder "Esa es la historia del Bosque Marchito."
     elder "El bosque que comienza tras aquella colina y que merma con su aspecto nuestros coloridos y hermosos paisajes..."
     show elder left dark at cleft
@@ -17,7 +17,7 @@ label sc_002_elder_girl_conversation:
     elder "Si no que forman parte de nuestra historia."
     call elderFROMplayer from _call_elderFROMplayer_1
     girl "Pero…"
-    girl "Gran Sabio... "
+    girl "Gran Sabio..."
     girl "Los finales no son así…"
     window hide
     scene text normal with dissolve
@@ -63,6 +63,6 @@ label sc_002_elder_girl_conversation:
     show fairy left at cleft# with dissolve
     elder "Por favor, se mi voz y mis ojos acompañando a esa joven."
     elder "Temo que esta historia haya calado hasta hacerse algo personal."
-    elder "Que la sabiduría de los Naira la acompañe allá donde la lleven sus aventuras."
+    elder "Que la sabiduría de los naira la acompañe allá donde la lleven sus aventuras."
 
     jump sc_003_before_forest

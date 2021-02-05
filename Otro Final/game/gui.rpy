@@ -16,8 +16,11 @@ transform cleft:
     xpos 300 ypos 300
 transform cright:
     xpos 1200 ypos 300
-transform ccleft:
-    xpos 665 ypos 300
+transform ccright:
+    xpos 950 ypos 300
+transform elderleft:
+    xpos 150 ypos 300
+
 
 transform center0:
     xalign 0.10 yalign 0.0

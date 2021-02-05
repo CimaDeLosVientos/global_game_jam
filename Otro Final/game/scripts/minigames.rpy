@@ -52,8 +52,8 @@ label minigame_2:
 
 label minigame_3:
     pause (1)
-    call HIDE from _call_HIDE_2
-    window hide
+    #call HIDE from _call_HIDE_2
+    #window hide
     python:
         director = Director(scenes_3, data)
         ui.add(director)

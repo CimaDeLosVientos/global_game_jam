@@ -48,23 +48,27 @@ label NOplayer_fairy:
     show fairy right dark at cright
     return
 
-
-label PLAYER_fairy_elder:
-    show player left at cleft
-    show fairy left dark at ccleft
-    show elder right dark at cright
+label NOfairy_player:
+    show fairy left dark at cleft
+    show player right dark at cright
     return
 
-label player_FAIRY_elder:
-    show player left dark at cleft
-    show fairy left at ccleft
-    show elder right dark at cright
+label ELDER_fairy_player:
+    show player right dark at cright
+    show fairy right dark at ccright
+    show elder left at elderleft
     return
 
-label player_fairy_ELDER:
-    show player left dark at cleft
-    show fairy left dark at ccleft
-    show elder right at cright
+label elder_FAIRY_player:
+    show player right dark at cright
+    show fairy right at ccright
+    show elder left dark at elderleft
+    return
+
+label elder_fairy_PLAYER:
+    show player right at cright
+    show fairy right dark at ccright
+    show elder left dark at elderleft
     return
 
 
