@@ -1,4 +1,5 @@
 label sc_002_elder_girl_conversation:
+    play music "music/Chrome en GP.mp3" fadein 1.0
     scene bg forest clear with dissolve
     show elder left at cleft with dissolve
     elder "Eh…"

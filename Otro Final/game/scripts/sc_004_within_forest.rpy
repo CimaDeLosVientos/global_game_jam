@@ -54,5 +54,6 @@ label sc_004_within_forest:
     call playerTOfairy from _call_playerTOfairy_45
     girl "Va... Vale."
     girl "Ir pasito a pasito y no acercarme mucho a la criatura... ¡Hecho!"
-    
+    stop music fadeout 3.0
+    play music "music/Kara Evanescent Slow Base.mp3" fadein 3.0
     jump minigame_1

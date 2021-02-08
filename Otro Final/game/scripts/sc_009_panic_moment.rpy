@@ -1,5 +1,7 @@
 label sc_009_panic_moment:
+    stop music fadeout 3.0
     scene bg forest dark with fade
+    play music "music/Oscuro Personajes.mp3" fadein 3.0
     call playerTOfairy
     girl "¡Sairina!{w} ¡Sairina!"
     call playerFROMfairy
@@ -41,7 +43,9 @@ label sc_009_panic_moment:
     girl "¡No se me ocurre nada!"
     call playerFROMfairy
     fairy "¡Cuidado!"
+    stop music fadeout 3.0
     window hide
+    play music "music/Peligro Narrador Slow.mp3" fadein 1.0
     scene text dark with fade
     nvl_narrator "{color=c8c8c8}{enf}La criatura las alcanzó.{/enf}{/color}"
     nvl_narrator "{color=c8c8c8}{enf}Y con un rugido aterrador anunció que se acercaba el final.{/enf}{/color}"
@@ -63,9 +67,11 @@ label sc_009_panic_moment:
     nvl_narrator "{color=c8c8c8}{enf}Sintió una inmensa fuerza que la empujó hacía atrás...{/enf}{/color}"
     nvl_narrator "{color=c8c8c8}{enf}Un último gruñido del oscuro ser... y después silencio.{/enf}{/color}"
     nvl_narrator "{color=c8c8c8}{enf}Y después...{/enf}{/color}"
+    stop music fadeout 1.0
     scene text grey with dissolve
     nvl_narrator "{color=c8c8c8}{enf}Silencio.{/enf}{/color}"
-    scene bg forest clear with fade
+    scene bg forest clear with fade 2.0
+    play music "music/Chrome en GP.mp3" fadein 3.0
     "¡Despierta, despierta!"
     "¿Estás bien?"
     show player right at cright
@@ -124,7 +130,7 @@ label sc_009_panic_moment:
     hide fairy with dissolve
     show player right at cright with dissolve
     show fairy right at ccright with dissolve
-    show elder left at cleft with dissolve
+    show elder left at elderleft with dissolve
     pause
     call ELDER_fairy_player
     elder "Me teníais ya muy preocupado."
@@ -159,4 +165,3 @@ label sc_009_panic_moment:
     girl "Gracias a nuestro esfuerzo,{w} tú,{w} yo,{w} el bosque...{w} ¡Todos!"
     girl "Hemos conseguido {b}otro final{b}."
     jump credits
-    #jump basic_end

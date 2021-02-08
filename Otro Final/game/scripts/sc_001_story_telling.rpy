@@ -1,5 +1,6 @@
 label sc_001_story_telling:
     window hide
+    play music "music/Chrome en GP Base.mp3"
     scene text normal with dissolve
     nvl_narrator "{enf}Una cálida mañana de primavera,\nsentado a la sombra y entre las raíces de\nun árbol ancestral...{/enf}"
     nvl_narrator "{enf}Un ser de gran sabiduría,\nconocido y respetado por todos,\nnarraba a oídos y ojos atentos\nla siguiente historia:{/enf}"
@@ -38,6 +39,7 @@ label sc_001_story_telling:
     nvl_narrator "{color=c8c8c8}{enf}Atacó a nuestra valiente maga,\ndejándola sin vida.{/enf}{/color}"
     nvl_narrator "{color=c8c8c8}{enf}Entonces todo se volvió oscuro otra vez y el bosque se encerró en sí mismo de nuevo.{/enf}{/color}"
     nvl_narrator "{color=c8c8c8}{enf}Quizá esperando volver a tener una oportunidad algún día...{/enf}{/color}"
+    stop music fadeout 3.0
     "Pero…"
     scene text grey with dissolve
     "¡Pero…!"

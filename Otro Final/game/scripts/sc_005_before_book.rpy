@@ -1,5 +1,9 @@
 label sc_005_before_book:
+    stop music fadeout 3.0
     scene bg forest dark with fade
+    play music "music/Chrome en GP.mp3" fadein 3.0
+    #"[director]"
+    #"[winner]"
     call playerTOfairy from _call_playerTOfairy_1
     girl "Bien, lo he conseguido."
     call playerFROMfairy from _call_playerFROMfairy_2
@@ -38,5 +42,6 @@ label sc_005_before_book:
     call playerTOfairy from _call_playerTOfairy_6
     girl "Vale, trataré de esconderme si hace falta."
     girl "Nos vemos al otro lado."
-
+    stop music fadeout 3.0
+    play music "music/Kara Evanescent Slow Base.mp3" fadein 3.0
     jump minigame_2

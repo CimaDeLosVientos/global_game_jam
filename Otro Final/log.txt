@@ -1,4 +1,4 @@
-Fri Feb  5 21:02:00 2021
+Mon Feb  8 14:36:23 2021
 Windows-10-10.0.19041
 Ren'Py 7.4.1.1270
  
@@ -7,7 +7,7 @@ Bootstrap to the start of init.init took 0.10s
 Early init took 0.00s
 Loader init took 0.01s
 Loading error handling took 0.02s
-Loading script took 0.26s
+Loading script took 0.37s
 Loading save slot metadata. took 0.03s
 Loading persistent took 0.00s
 Importing _renpysteam: ImportError('No module named _renpysteam',)
@@ -457,7 +457,7 @@ D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
 D:\Almac�n\Descargas\renpy-7.4.1-sdk
 D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
 D:\Almac�n\Descargas\renpy-7.4.1-sdk
- - Init at game/script.rpy:11 took 1.08203 s.
+ - Init at game/script.rpy:11 took 1.18561 s.
 Cargado
 D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
 D:\Almac�n\Descargas\renpy-7.4.1-sdk
@@ -905,36 +905,36 @@ D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
 D:\Almac�n\Descargas\renpy-7.4.1-sdk
 D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
 D:\Almac�n\Descargas\renpy-7.4.1-sdk
- - Init at game/scripts/minigames.rpy:1 took 1.05779 s.
-Running init code took 2.20s
-Loading analysis data took 0.04s
+ - Init at game/scripts/minigames.rpy:1 took 1.08617 s.
+Running init code took 2.34s
+Loading analysis data took 0.05s
 Analyze and compile ATL took 0.00s
 Index archives took 0.00s
 Backing up script files to 'C:\\Users\\DarkSaytan\\AppData\\Roaming/RenPy/backups\\Otro Final':
-Dump and make backups. took 0.10s
+Dump and make backups. took 0.11s
 Cleaning cache took 0.00s
 Making clean stores took 0.00s
 Initial gc. took 0.03s
 DPI scale factor: 1.000000
 Creating interface object took 0.00s
 Cleaning stores took 0.00s
-Init translation took 0.04s
+Init translation took 0.05s
 Build styles took 0.01s
 Load screen analysis took 0.00s
 Analyze screens took 0.02s
 Save screen analysis took 0.10s
-Prepare screens took 0.07s
+Prepare screens took 0.10s
 Save pyanalysis. took 0.00s
-Save bytecode. took 0.04s
+Save bytecode. took 0.05s
 Running _start took 0.00s
 Performance test:
-Interface start took 0.16s
+Interface start took 0.18s
 
 Initializing gl renderer:
 primary display bounds: (0, 0, 1920, 1080)
 swap interval: 1 frames
 Using GL DLL.
-Windowed mode.
+Fullscreen mode.
 Vendor: 'NVIDIA Corporation'
 Renderer: 'GeForce GTX 1060 6GB/PCIe/SSE2'
 Version: '4.6.0 NVIDIA 461.09'
@@ -1346,7 +1346,453 @@ Texture testing:
 - 512px textures work.
 - 1024px textures work.
 - 2048px textures work.
-Screen sizes: virtual=(1920, 1080) physical=(1324, 745) drawable=(1324, 745)
+Screen sizes: virtual=(1920, 1080) physical=(1920, 1080) drawable=(1920, 1080)
 Root FBO is: 0
 FBO Maximum Texture Size: 2048
-Total time until interface ready: 3.66213607788s
+Total time until interface ready: 4.11632299423s
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk
+D:\Almacén\Descargas\renpy-7.4.1-sdk\src\helpers.py
+D:\Almac�n\Descargas\renpy-7.4.1-sdk

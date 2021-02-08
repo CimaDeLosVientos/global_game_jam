@@ -24,8 +24,7 @@ class Game(Scene):
 
 
     def load(self, data):
-        return
-        self.__init__()
+        self.__init__(data)
 
 
     def on_event(self, time, event):

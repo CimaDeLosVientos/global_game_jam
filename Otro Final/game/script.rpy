@@ -93,7 +93,8 @@ label test_zone:
 label start:
     #$ _skipping = False
     #jump test_zone
-    jump sc_009_panic_moment
+    #jump sc_004_within_forest
+    #jump sc_009_panic_moment
     jump sc_001_story_telling
 
 

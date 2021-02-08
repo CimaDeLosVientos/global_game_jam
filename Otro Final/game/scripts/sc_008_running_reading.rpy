@@ -1,5 +1,7 @@
 label sc_008_running_reading:
-    scene bg text forest 1 with fade
+    stop music fadeout 3.0 
+    scene bg text magic 3 with fade
+    play music "music/Oscuro Personajes.mp3" fadein 3.0
     nvl_narrator "{enf}Las dos intentaban con todas sus fuerzas mantenerse alejadas de la criatura.{/enf}"
     nvl_narrator "{enf}Se esforzaban por mantenerse a salvo y así poder continuar la historia.{/enf}"
     nvl_narrator "{enf}Pero la criatura era implacable y apenas le sacaban suficiente ventaja como para pararse a descansar.{/enf}"
@@ -22,4 +24,6 @@ label sc_008_running_reading:
     call playerTOfairy from _call_playerTOfairy_21
     girl "Intenta ganar un poco más de tiempo."
     girl "Así yo podré esconderme, e intentar sacarle algo de distancia para poder terminar la historia."
+    stop music fadeout 3.0
+    play music "music/Kara Evanescent Slow Base.mp3" fadein 3.0
     jump minigame_5

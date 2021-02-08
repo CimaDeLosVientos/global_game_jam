@@ -2,7 +2,6 @@ init -1 python:
     from src.game import Game
     from src.parameters import MINIGAMES_DATA
 
-    data = {}
     scenes_1 = {
         "init" : Game(MINIGAMES_DATA["1"])
     }
@@ -25,7 +24,7 @@ label minigame_1:
     call HIDE from _call_HIDE
     window hide
     python:
-        director = Director(scenes_1, data)
+        director = Director(scenes_1, MINIGAMES_DATA["1"])
         ui.add(director)
         winner = ui.interact(suppress_overlay=True, suppress_underlay=True)
         ui.remove(director)
@@ -40,7 +39,7 @@ label minigame_2:
     call HIDE from _call_HIDE_1
     window hide
     python:
-        director = Director(scenes_2, data)
+        director = Director(scenes_2, MINIGAMES_DATA["2"])
         ui.add(director)
         winner = ui.interact(suppress_overlay=True, suppress_underlay=True)
         ui.remove(director)
@@ -55,7 +54,7 @@ label minigame_3:
     #call HIDE from _call_HIDE_2
     #window hide
     python:
-        director = Director(scenes_3, data)
+        director = Director(scenes_3, MINIGAMES_DATA["3"])
         ui.add(director)
         winner = ui.interact(suppress_overlay=True, suppress_underlay=True)
         ui.remove(director)
@@ -70,7 +69,7 @@ label minigame_4:
     call HIDE from _call_HIDE_3
     window hide
     python:
-        director = Director(scenes_4, data)
+        director = Director(scenes_4, MINIGAMES_DATA["4"])
         ui.add(director)
         winner = ui.interact(suppress_overlay=True, suppress_underlay=True)
         ui.remove(director)
@@ -85,7 +84,7 @@ label minigame_5:
     call HIDE from _call_HIDE_4
     window hide
     python:
-        director = Director(scenes_5, data)
+        director = Director(scenes_5, MINIGAMES_DATA["5"])
         ui.add(director)
         winner = ui.interact(suppress_overlay=True, suppress_underlay=True)
         ui.remove(director)

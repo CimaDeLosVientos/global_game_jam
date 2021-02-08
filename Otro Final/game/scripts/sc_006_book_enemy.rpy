@@ -1,5 +1,7 @@
 label sc_006_book_enemy:
+    stop music fadeout 3.0
     scene bg forest dark with fade
+    play music "music/Chrome en GP.mp3" fadein 3.0
     call playerFROMfairy from _call_playerFROMfairy_7
     fairy "Esto se está volviendo cada vez más peligroso."
     call playerTOfairy from _call_playerTOfairy_7
@@ -53,6 +55,8 @@ label sc_006_book_enemy:
     girl "¡No, es mucho mejor así!"
     girl "¿Crees que podríamos intentar...?"
     scene text grey with fade
+    stop music fadeout 3.0
+    play music "music/Peligro Narrador Slow.mp3" fadein 1.0
     nvl_narrator "{enf}Un poderoso y escalofriante rugido las sobresaltó.{/enf}"
     nvl_narrator "{enf}Rebotando entre los árboles de aquel taciturno bosque, el sonido parecía venir de todas partes.{/enf}"
     nvl_narrator "{enf}Se apresuraron a salir del claro e intentar alejarse.{/enf}"
@@ -60,8 +64,10 @@ label sc_006_book_enemy:
     nvl_narrator "{enf}Esta vez no podían simplemente evitarlo, pues era evidente que la criatura sabía de su presencia en el bosque.{/enf}"
     nvl_narrator "{enf}Tendrían que buscar otra manera...{/enf}"
     scene bg forest monster with fade
+    stop music fadeout 3.0
     pause
     call playerTOfairy from _call_playerTOfairy_14
+    play music "music/Oscuro Personajes.mp3" fadein 1.0
     girl "¿Qué hacemos?"
     call playerFROMfairy from _call_playerFROMfairy_12
     fairy "Nuestra estrategia no tiene mucho sentido ahora que ya nos ha visto."
@@ -84,8 +90,10 @@ label sc_006_book_enemy:
     fairy "Tú intenta contarle la historia, pero no dejes de moverte."
     fairy "Iremos avanzando en dirección a la salida por si no funciona."
     fairy "Está bien, guíame, yo seguiré tu luz."
-    scene text grey with fade
+    scene bg text magic 1 with fade
     nvl_narrator "{enf}Éstel, ayudada por la luz de Sairina, comenzó a leer en voz alta la historia que contenía el libro en voz alta.{/enf}"
     nvl_narrator "{enf}Éste comenzó a brillar y la magia que emanaba empezó a cambiar el lugar como contaba la antigua historia.{/enf}"
     nvl_narrator "{enf}Mientras, Sairina intentaba guiarlas por un lugar seguro para que ella pudiera continuar leyendo aquella mágica historia.{/enf}"
+    stop music fadeout 3.0
+    play music "music/Kara Evanescent Slow Base.mp3" fadein 3.0
     jump minigame_3
