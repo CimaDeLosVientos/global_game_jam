@@ -7,8 +7,8 @@ label basic_end:
 
 
 label credits:
-    stop music fadeout 3.0
-    scene credits with fade 3.0
+    stop music fadeout 5.0
+    scene credits with Fade(3.0, 1.0, 2.0)
     pause #nvl_narrator "{enf}Gracias por jugar :){/enf}"
     scene main_menu with fade
     scene final_menu with dissolve

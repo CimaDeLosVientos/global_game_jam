@@ -14,7 +14,7 @@ label sc_004_within_forest:
     scene bg forest dark with fade
     call playerTOfairy from _call_playerTOfairy_40
     girl "¿Has visto eso? ¡Verde!"
-    girl "Ahí hay unos brotes en el suelo...{w} y ahí un pequeño arbusto"
+    girl "Ahí hay unos brotes en el suelo...{w} y ahí un pequeño arbusto..."
     girl "¡Y ahí hay más!"
     call playerFROMfairy from _call_playerFROMfairy_37
     fairy "Sí, lo veo."

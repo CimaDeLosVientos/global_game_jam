@@ -28,8 +28,10 @@ label minigame_1:
         ui.add(director)
         winner = ui.interact(suppress_overlay=True, suppress_underlay=True)
         ui.remove(director)
+        director = None
 
     if winner == "True":
+        $ renpy.block_rollback()
         jump sc_005_before_book
     else:
         jump dead_end
@@ -43,8 +45,10 @@ label minigame_2:
         ui.add(director)
         winner = ui.interact(suppress_overlay=True, suppress_underlay=True)
         ui.remove(director)
+        director = None
 
     if winner == "True":
+        $ renpy.block_rollback()
         jump sc_006_book_enemy
     else:
         jump dead_end
@@ -58,8 +62,10 @@ label minigame_3:
         ui.add(director)
         winner = ui.interact(suppress_overlay=True, suppress_underlay=True)
         ui.remove(director)
+        director = None
 
     if winner == "True":
+        $ renpy.block_rollback()
         jump sc_007_reading_conversation
     else:
         jump dead_end
@@ -73,8 +79,10 @@ label minigame_4:
         ui.add(director)
         winner = ui.interact(suppress_overlay=True, suppress_underlay=True)
         ui.remove(director)
+        director = None
 
     if winner == "True":
+        $ renpy.block_rollback()
         jump sc_008_running_reading
     else:
         jump dead_end
@@ -88,8 +96,10 @@ label minigame_5:
         ui.add(director)
         winner = ui.interact(suppress_overlay=True, suppress_underlay=True)
         ui.remove(director)
+        director = None
 
     if winner == "True":
+        $ renpy.block_rollback()
         jump sc_009_panic_moment
     else:
         jump dead_end

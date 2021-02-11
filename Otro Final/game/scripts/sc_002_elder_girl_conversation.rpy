@@ -19,6 +19,7 @@ label sc_002_elder_girl_conversation:
     call elderFROMplayer from _call_elderFROMplayer_1
     girl "Pero…"
     girl "Gran Sabio..."
+    $ renpy.checkpoint()
     girl "Los finales no son así…"
     window hide
     scene text normal with dissolve
@@ -64,6 +65,6 @@ label sc_002_elder_girl_conversation:
     show fairy left at cleft# with dissolve
     elder "Por favor, se mi voz y mis ojos acompañando a esa joven."
     elder "Temo que esta historia haya calado hasta hacerse algo personal."
-    elder "Que la sabiduría de los naira la acompañe allá donde la lleven sus aventuras."
+    elder "Que la sabiduría de las nairas la acompañe allá donde la lleven sus aventuras."
 
     jump sc_003_before_forest

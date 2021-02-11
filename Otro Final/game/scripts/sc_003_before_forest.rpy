@@ -1,7 +1,7 @@
 label sc_003_before_forest:
     window hide
     scene text normal with fade
-    nvl_narrator "{enf}Los naira son criaturas de fantasía\nde vibrantes y luminosos colores,\nsalidos de la más pura imaginación.{/enf}"
+    nvl_narrator "{enf}Las nairas son criaturas de fantasía\nde vibrantes y luminosos colores,\nsalidos de la más pura imaginación.{/enf}"
     nvl_narrator "{enf}Se dice que estos seres se componen de la imaginación, los pensamientos y los sentimientos que quedan suspendidos en el aire allá por donde otra criatura haya pasado.{/enf}"
     nvl_narrator "{enf}Por eso, dicen, se sienten atraídas por personas imaginativas, sabias y aventureras a las que no dudan en acompañar y ayudar en lo que puedan.{/enf}"
     nvl_narrator "{enf}También se dice que, a parte de los cientos de recuerdos, pensamientos e historias de las que se componen, guardan la esencia de los Ancestros.{/enf}"

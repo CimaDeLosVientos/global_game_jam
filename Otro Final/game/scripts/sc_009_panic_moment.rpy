@@ -65,12 +65,11 @@ label sc_009_panic_moment:
     nvl_narrator "{color=c8c8c8}{enf}Instintivamente usó el libro como escudo, abriéndolo de par en par para intentar cubrirse, aunque pudiera parecer la más ridícula de las ideas.{/enf}{/color}"
     nvl_narrator "{color=c8c8c8}{enf}Éstel cerró los ojos con fuerza esperando el choque final.{/enf}{/color}"
     nvl_narrator "{color=c8c8c8}{enf}Sintió una inmensa fuerza que la empujó hacía atrás...{/enf}{/color}"
-    nvl_narrator "{color=c8c8c8}{enf}Un último gruñido del oscuro ser... y después silencio.{/enf}{/color}"
+    nvl_narrator "{color=c8c8c8}{enf}Un último gruñido del oscuro ser...{/enf}{/color}"
     nvl_narrator "{color=c8c8c8}{enf}Y después...{/enf}{/color}"
     stop music fadeout 1.0
-    scene text grey with dissolve
-    nvl_narrator "{color=c8c8c8}{enf}Silencio.{/enf}{/color}"
-    scene bg forest clear with fade 2.0
+    nvl_narrator "{color=c8c8c8}{enf}{w=1}Silencio.{/enf}{/color}"
+    scene bg forest clear with Fade(3.0, 0.5, 1.5)
     play music "music/Chrome en GP.mp3" fadein 3.0
     "¡Despierta, despierta!"
     "¿Estás bien?"
@@ -162,6 +161,6 @@ label sc_009_panic_moment:
     girl "Todo empezó contigo.{w} Aunque fuera hace mucho tiempo."
     girl "Y ahora, hemos conseguido terminarlo.{w} ¡Juntas!"
     girl "Así sí que puede ser la historia."
-    girl "Gracias a nuestro esfuerzo,{w} tú,{w} yo,{w} el bosque...{w} ¡Todos!"
-    girl "Hemos conseguido {b}otro final{b}."
+    girl "Gracias a nuestro esfuerzo,{w} tú, yo, el bosque...{w} ¡Todos!"
+    girl "Hemos conseguido {w}{b}otro final{b}."
     jump credits

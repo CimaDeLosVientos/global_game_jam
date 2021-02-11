@@ -3,7 +3,7 @@ label sc_007_reading_conversation:
     scene bg text magic 2 with fade
     play music "music/Oscuro Personajes.mp3" fadein 3.0
     nvl_narrator "{enf}Sairina y Éstel trataba de sortear a la oscura y peligrosa criatura que les perseguía.{/enf}"
-    nvl_narrator "{enf}Mientras el libro brillaba con más fuerza con cada palabra pronunciada.{/enf}"
+    nvl_narrator "{enf}Mientras, el libro brillaba con más fuerza con cada palabra pronunciada.{/enf}"
     nvl_narrator "{enf}A su paso, crecía la hierba, se vestían las ramas de los árboles y la sombras parecía retirarse.{/enf}"
     scene text grey with dissolve
     nvl_narrator "{enf}Pero no parecía tener efecto sobre la terrible criatura.{/enf}"

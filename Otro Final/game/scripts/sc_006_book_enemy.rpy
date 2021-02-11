@@ -35,7 +35,7 @@ label sc_006_book_enemy:
     call playerTOfairy from _call_playerTOfairy_10
     girl "Mira, parece un libro."
     call NOplayer_fairy from _call_NOplayer_fairy
-    "{i}Éstel se acercó asomó al tronco del árbol y estiró una mano para tocarlo, pero entonces se dio la vuelta hacia Sairina.{\i}"
+    "{i}Éstel se acercó y asomó al tronco del árbol, estiró una mano para tocarlo, pero entonces se dio la vuelta hacia Sairina.{\i}"
     call playerTOfairy from _call_playerTOfairy_11
     girl "¿Crees que podría cogerlo?"
     call playerFROMfairy from _call_playerFROMfairy_10
@@ -91,7 +91,7 @@ label sc_006_book_enemy:
     fairy "Iremos avanzando en dirección a la salida por si no funciona."
     fairy "Está bien, guíame, yo seguiré tu luz."
     scene bg text magic 1 with fade
-    nvl_narrator "{enf}Éstel, ayudada por la luz de Sairina, comenzó a leer en voz alta la historia que contenía el libro en voz alta.{/enf}"
+    nvl_narrator "{enf}Éstel, ayudada por la luz de Sairina, comenzó a leer en voz alta la historia que contenía el libro.{/enf}"
     nvl_narrator "{enf}Éste comenzó a brillar y la magia que emanaba empezó a cambiar el lugar como contaba la antigua historia.{/enf}"
     nvl_narrator "{enf}Mientras, Sairina intentaba guiarlas por un lugar seguro para que ella pudiera continuar leyendo aquella mágica historia.{/enf}"
     stop music fadeout 3.0

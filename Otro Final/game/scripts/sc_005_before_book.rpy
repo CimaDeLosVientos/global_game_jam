@@ -2,8 +2,6 @@ label sc_005_before_book:
     stop music fadeout 3.0
     scene bg forest dark with fade
     play music "music/Chrome en GP.mp3" fadein 3.0
-    #"[director]"
-    #"[winner]"
     call playerTOfairy from _call_playerTOfairy_1
     girl "Bien, lo he conseguido."
     call playerFROMfairy from _call_playerFROMfairy_2
