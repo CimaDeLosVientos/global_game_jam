@@ -478,7 +478,7 @@ screen game_menu(title, scroll=None, yinitial=0.0):
 
         action Return()
 
-    label title
+    #label title
 
     if main_menu:
         key "game_menu" action ShowMenu("main_menu")
@@ -738,20 +738,20 @@ screen preferences():
                         textbutton _("Ventana") action Preference("display", "window")
                         textbutton _("Pant. completa") action Preference("display", "fullscreen")
 
-                vbox:
-                    style_prefix "radio"
-                    #label _("Lado de retroceso")
-                    label _("Retroceso")
-                    textbutton _("Desactivar") action Preference("rollback side", "disable")
-                    textbutton _("Izquierda") action Preference("rollback side", "left")
-                    textbutton _("Derecha") action Preference("rollback side", "right")
+                #vbox:
+                #    style_prefix "radio"
+                #    #label _("Lado de retroceso")
+                #    label _("Retroceso")
+                #    textbutton _("Desactivar") action Preference("rollback side", "disable")
+                #    textbutton _("Izquierda") action Preference("rollback side", "left")
+                #    textbutton _("Derecha") action Preference("rollback side", "right")
 
                 vbox:
                     style_prefix "check"
                     label _("Saltar")
-                    textbutton _("Texto no visto") action Preference("skip", "toggle")
-                    textbutton _("Tras opciones") action Preference("after choices", "toggle")
+                    #textbutton _("Texto no visto") action Preference("skip", "toggle")
                     textbutton _("Transiciones") action InvertSelected(Preference("transitions", "toggle"))
+                    textbutton _("Tras opciones") action Preference("after choices", "toggle")
 
                 ## Aquí se pueden añadir 'vboxes' adicionales del tipo
                 ## "radio_pref" o "check_pref" para nuevas preferencias.
@@ -772,7 +772,7 @@ screen preferences():
 
                     bar value Preference("auto-forward time")
 
-                vbox:
+                #vbox:
 
                     if config.has_music:
                         label _("Volumen música")
@@ -800,12 +800,12 @@ screen preferences():
                             if config.sample_voice:
                                 textbutton _("Prueba") action Play("voice", config.sample_voice)
 
-                    if config.has_music or config.has_sound or config.has_voice:
-                        null height gui.pref_spacing
+                    #if config.has_music or config.has_sound or config.has_voice:
+                    #    null height gui.pref_spacing
 
-                        textbutton _("Silencia todo"):
-                            action Preference("all mute", "toggle")
-                            style "mute_all_button"
+                    #    textbutton _("Silencia todo"):
+                    #        action Preference("all mute", "toggle")
+                    #        style "mute_all_button"
 
 
 style pref_label is gui_label

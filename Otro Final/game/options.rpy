@@ -56,9 +56,9 @@ define build.name = "OtroFinal"
 ## Estas tres variables controlan los mezcladores mostrados por defecto al
 ## jugador. Ajustar alguno a 'False' para esconderlo.
 
-define config.has_sound = True
+define config.has_sound = False
 define config.has_music = True
-define config.has_voice = True
+define config.has_voice = False
 
 
 ## Para permitir al usuario probar el volumen de los canales de sonido o voz,
