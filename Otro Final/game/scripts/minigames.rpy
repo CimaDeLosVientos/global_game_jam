@@ -34,7 +34,8 @@ label minigame_1:
         $ renpy.block_rollback()
         jump sc_005_before_book
     else:
-        jump dead_end
+        call dead_end
+        jump sc_004_within_forest
 
 label minigame_2:
     pause (1)
@@ -51,7 +52,8 @@ label minigame_2:
         $ renpy.block_rollback()
         jump sc_006_book_enemy
     else:
-        jump dead_end
+        call dead_end
+        jump sc_005_before_book
 
 label minigame_3:
     pause (1)
@@ -68,7 +70,8 @@ label minigame_3:
         $ renpy.block_rollback()
         jump sc_007_reading_conversation
     else:
-        jump dead_end
+        call dead_end
+        jump sc_006_book_enemy
 
 label minigame_4:
     pause (1)
@@ -85,7 +88,8 @@ label minigame_4:
         $ renpy.block_rollback()
         jump sc_008_running_reading
     else:
-        jump dead_end
+        call dead_end
+        jump sc_007_reading_conversation
 
 label minigame_5:
     pause (1)
@@ -102,4 +106,5 @@ label minigame_5:
         $ renpy.block_rollback()
         jump sc_009_panic_moment
     else:
-        jump dead_end
+        call dead_end
+        jump sc_008_running_reading

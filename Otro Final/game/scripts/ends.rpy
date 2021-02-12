@@ -1,7 +1,11 @@
 label dead_end:
     scene text dark with fade
     nvl_narrator "{enf}{color=c8c8c8}No...\n{w}Las historias no pueden acabar así...{/color}{/enf}"
-    return
+    menu:
+        "Reintentar":
+            return
+        "Salir":
+            $ MainMenu(confirm=False)()
 
 label basic_end:
 
